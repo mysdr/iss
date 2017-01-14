@@ -1,0 +1,774 @@
+INFO: loading config from ./ss.json
+2017-01-14 21:02:46 INFO     starting local at 127.0.0.1:1080
+2017-01-14 21:02:46 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-14 21:19:43 INFO     starting local at 127.0.0.1:1080
+2017-01-14 21:19:43 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-14 21:20:41 INFO     starting local at 127.0.0.1:1080
+2017-01-14 21:20:41 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-14 21:22:59 INFO     starting local at 127.0.0.1:1080
+2017-01-14 21:22:59 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-14 21:24:52 INFO     starting local at 127.0.0.1:1080
+2017-01-14 21:24:52 DEBUG    using event model: epoll
+2017-01-14 21:29:01 DEBUG    accept
+2017-01-14 21:29:01 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:29:01 INFO     connecting www.google.com:443
+2017-01-14 21:29:01 DEBUG    resolving a.ssx.host with type 1 using server 192.168.31.1
+2017-01-14 21:29:01 DEBUG    accept
+2017-01-14 21:29:01 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:29:01 INFO     connecting www.google.com:443
+2017-01-14 21:29:01 DEBUG    resolving a.ssx.host with type 1 using server 192.168.31.1
+2017-01-14 21:29:01 DEBUG    destroy: www.google.com:443
+2017-01-14 21:29:01 DEBUG    destroying remote
+2017-01-14 21:29:01 DEBUG    destroying local
+2017-01-14 21:29:01 DEBUG    destroy: www.google.com:443
+2017-01-14 21:29:01 DEBUG    destroying remote
+2017-01-14 21:29:01 DEBUG    destroying local
+2017-01-14 21:29:01 DEBUG    accept
+2017-01-14 21:29:01 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:29:01 INFO     connecting www.google.com:443
+2017-01-14 21:29:01 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:29:05 DEBUG    accept
+2017-01-14 21:29:05 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:29:05 INFO     connecting clients1.google.com:80
+2017-01-14 21:29:05 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:29:07 DEBUG    destroy: clients1.google.com:80
+2017-01-14 21:29:07 DEBUG    destroying remote
+2017-01-14 21:29:07 DEBUG    destroying local
+2017-01-14 21:29:09 DEBUG    accept
+2017-01-14 21:29:09 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:29:09 INFO     connecting toolbar3.diigo.com:443
+2017-01-14 21:29:09 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:29:10 DEBUG    accept
+2017-01-14 21:29:10 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:29:10 INFO     connecting sgs.3w.dkys.org:80
+2017-01-14 21:29:10 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:29:11 DEBUG    accept
+2017-01-14 21:29:11 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:29:11 INFO     connecting gp.symcd.com:80
+2017-01-14 21:29:11 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:29:12 DEBUG    destroy: sgs.3w.dkys.org:80
+2017-01-14 21:29:12 DEBUG    destroying remote
+2017-01-14 21:29:12 DEBUG    destroying local
+2017-01-14 21:29:12 DEBUG    accept
+2017-01-14 21:29:12 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:29:12 INFO     connecting sgs.3w.dkys.org:80
+2017-01-14 21:29:12 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:29:12 DEBUG    accept
+2017-01-14 21:29:12 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:29:12 INFO     connecting ssl.gstatic.com:443
+2017-01-14 21:29:12 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:29:12 DEBUG    accept
+2017-01-14 21:29:12 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:29:12 INFO     connecting lh3.googleusercontent.com:443
+2017-01-14 21:29:12 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:29:12 DEBUG    accept
+2017-01-14 21:29:12 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:29:12 INFO     connecting www.gstatic.com:443
+2017-01-14 21:29:12 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:29:12 DEBUG    destroy: sgs.3w.dkys.org:80
+2017-01-14 21:29:12 DEBUG    destroying remote
+2017-01-14 21:29:12 DEBUG    destroying local
+2017-01-14 21:29:13 DEBUG    accept
+2017-01-14 21:29:13 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:29:13 INFO     connecting clients1.google.com:80
+2017-01-14 21:29:13 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:29:15 DEBUG    accept
+2017-01-14 21:29:15 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:29:15 INFO     connecting cn.bing.com:80
+2017-01-14 21:29:15 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:29:16 DEBUG    accept
+2017-01-14 21:29:16 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:29:16 INFO     connecting cn.bing.com:80
+2017-01-14 21:29:16 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:29:16 DEBUG    accept
+2017-01-14 21:29:16 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:29:16 INFO     connecting apis.google.com:443
+2017-01-14 21:29:16 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:29:16 DEBUG    accept
+2017-01-14 21:29:16 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:29:16 INFO     connecting ogs.google.com:443
+2017-01-14 21:29:16 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:29:17 DEBUG    accept
+2017-01-14 21:29:17 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:29:17 INFO     connecting clients1.google.com:80
+2017-01-14 21:29:17 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:29:21 DEBUG    accept
+2017-01-14 21:29:21 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:29:21 INFO     connecting plus.google.com:443
+2017-01-14 21:29:21 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:30:06 DEBUG    accept
+2017-01-14 21:30:06 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:30:06 INFO     connecting id.google.com:443
+2017-01-14 21:30:06 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:30:19 DEBUG    destroy: cn.bing.com:80
+2017-01-14 21:30:19 DEBUG    destroying remote
+2017-01-14 21:30:19 DEBUG    destroying local
+2017-01-14 21:30:29 DEBUG    destroy: toolbar3.diigo.com:443
+2017-01-14 21:30:29 DEBUG    destroying remote
+2017-01-14 21:30:29 DEBUG    destroying local
+2017-01-14 21:30:35 DEBUG    destroy: cn.bing.com:80
+2017-01-14 21:30:35 DEBUG    destroying remote
+2017-01-14 21:30:35 DEBUG    destroying local
+2017-01-14 21:30:37 DEBUG    accept
+2017-01-14 21:30:37 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:30:37 INFO     connecting lifehacker.com:80
+2017-01-14 21:30:37 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:30:37 DEBUG    accept
+2017-01-14 21:30:37 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:30:37 INFO     connecting toolbar3.diigo.com:443
+2017-01-14 21:30:37 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:30:39 DEBUG    accept
+2017-01-14 21:30:39 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:30:39 INFO     connecting toolbar3.diigo.com:443
+2017-01-14 21:30:39 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:30:39 DEBUG    accept
+2017-01-14 21:30:39 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:30:39 INFO     connecting kinja.com:443
+2017-01-14 21:30:39 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:30:39 DEBUG    accept
+2017-01-14 21:30:39 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:30:39 INFO     connecting f.kinja-static.com:80
+2017-01-14 21:30:39 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:30:39 DEBUG    accept
+2017-01-14 21:30:39 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:30:39 INFO     connecting i.kinja-img.com:443
+2017-01-14 21:30:39 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:30:40 DEBUG    accept
+2017-01-14 21:30:40 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:30:40 INFO     connecting x.kinja-static.com:80
+2017-01-14 21:30:40 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:30:40 DEBUG    accept
+2017-01-14 21:30:40 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:30:40 INFO     connecting x.kinja-static.com:80
+2017-01-14 21:30:40 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:30:40 DEBUG    accept
+2017-01-14 21:30:40 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:30:40 INFO     connecting d8rk54i4mohrb.cloudfront.net:80
+2017-01-14 21:30:40 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:30:41 DEBUG    accept
+2017-01-14 21:30:41 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:30:41 INFO     connecting www.googletagservices.com:80
+2017-01-14 21:30:41 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:30:41 DEBUG    accept
+2017-01-14 21:30:41 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:30:41 INFO     connecting c.amazon-adsystem.com:80
+2017-01-14 21:30:41 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:30:41 DEBUG    accept
+2017-01-14 21:30:41 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:30:41 INFO     connecting x.kinja-static.com:80
+2017-01-14 21:30:41 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:30:41 DEBUG    accept
+2017-01-14 21:30:41 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:30:41 INFO     connecting x.kinja-static.com:80
+2017-01-14 21:30:41 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:30:41 DEBUG    accept
+2017-01-14 21:30:41 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:30:41 INFO     connecting x.kinja-static.com:80
+2017-01-14 21:30:41 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:30:41 DEBUG    accept
+2017-01-14 21:30:41 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:30:41 INFO     connecting securepubads.g.doubleclick.net:443
+2017-01-14 21:30:41 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:30:43 DEBUG    accept
+2017-01-14 21:30:43 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:30:43 INFO     connecting edge.simplereach.com:80
+2017-01-14 21:30:43 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:30:43 DEBUG    accept
+2017-01-14 21:30:43 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:30:43 INFO     connecting edge.simplereach.com:80
+2017-01-14 21:30:43 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:30:45 DEBUG    destroy: f.kinja-static.com:80
+2017-01-14 21:30:45 DEBUG    destroying remote
+2017-01-14 21:30:45 DEBUG    destroying local
+2017-01-14 21:30:50 DEBUG    accept
+2017-01-14 21:30:50 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:30:50 INFO     connecting www.youtube.com:443
+2017-01-14 21:30:50 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:31:05 DEBUG    accept
+2017-01-14 21:31:05 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:31:05 INFO     connecting s.ytimg.com:443
+2017-01-14 21:31:05 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:31:08 DEBUG    destroy: gp.symcd.com:80
+2017-01-14 21:31:08 DEBUG    destroying remote
+2017-01-14 21:31:08 DEBUG    destroying local
+2017-01-14 21:31:11 DEBUG    accept
+2017-01-14 21:31:11 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:31:11 INFO     connecting fonts.gstatic.com:443
+2017-01-14 21:31:11 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:31:11 DEBUG    accept
+2017-01-14 21:31:11 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:31:11 DEBUG    accept
+2017-01-14 21:31:11 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:31:11 DEBUG    accept
+2017-01-14 21:31:11 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:31:11 DEBUG    accept
+2017-01-14 21:31:11 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:31:11 INFO     connecting f.kinja-static.com:80
+2017-01-14 21:31:11 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:31:11 DEBUG    accept
+2017-01-14 21:31:11 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:31:11 INFO     connecting f.kinja-static.com:80
+2017-01-14 21:31:11 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:31:11 DEBUG    accept
+2017-01-14 21:31:11 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:31:11 INFO     connecting i.kinja-img.com:443
+2017-01-14 21:31:11 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:31:11 INFO     connecting f.kinja-static.com:80
+2017-01-14 21:31:11 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:31:11 DEBUG    accept
+2017-01-14 21:31:11 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:31:11 DEBUG    accept
+2017-01-14 21:31:11 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:31:11 INFO     connecting i.kinja-img.com:443
+2017-01-14 21:31:11 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:31:11 INFO     connecting i.kinja-img.com:443
+2017-01-14 21:31:11 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:31:11 INFO     connecting i.kinja-img.com:443
+2017-01-14 21:31:11 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:31:11 INFO     connecting i.kinja-img.com:443
+2017-01-14 21:31:11 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:31:30 DEBUG    accept
+2017-01-14 21:31:30 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:31:30 INFO     connecting i.ytimg.com:443
+2017-01-14 21:31:30 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:31:44 DEBUG    accept
+2017-01-14 21:31:44 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:31:44 INFO     connecting www.google-analytics.com:443
+2017-01-14 21:31:44 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:31:44 DEBUG    accept
+2017-01-14 21:31:44 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:31:44 INFO     connecting s.skimresources.com:80
+2017-01-14 21:31:44 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:31:44 DEBUG    accept
+2017-01-14 21:31:44 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:31:44 INFO     connecting secure-us.imrworldwide.com:80
+2017-01-14 21:31:44 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:31:44 DEBUG    accept
+2017-01-14 21:31:44 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:31:44 INFO     connecting secure-dcr.imrworldwide.com:80
+2017-01-14 21:31:44 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:31:44 DEBUG    accept
+2017-01-14 21:31:44 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:31:44 INFO     connecting static.chartbeat.com:80
+2017-01-14 21:31:44 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:31:44 DEBUG    accept
+2017-01-14 21:31:44 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:31:44 INFO     connecting edge.quantserve.com:80
+2017-01-14 21:31:44 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:31:44 DEBUG    accept
+2017-01-14 21:31:44 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:31:44 INFO     connecting cdn.krxd.net:80
+2017-01-14 21:31:44 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:31:44 DEBUG    accept
+2017-01-14 21:31:44 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:31:44 INFO     connecting b.scorecardresearch.com:80
+2017-01-14 21:31:44 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:31:44 DEBUG    accept
+2017-01-14 21:31:44 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:31:44 INFO     connecting pubads.g.doubleclick.net:80
+2017-01-14 21:31:44 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:31:44 DEBUG    accept
+2017-01-14 21:31:44 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:31:44 INFO     connecting pubads.g.doubleclick.net:80
+2017-01-14 21:31:44 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:31:45 DEBUG    accept
+2017-01-14 21:31:45 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:31:45 INFO     connecting cdn.taboola.com:80
+2017-01-14 21:31:45 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:31:45 DEBUG    accept
+2017-01-14 21:31:45 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:31:45 INFO     connecting kinja.com:80
+2017-01-14 21:31:45 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:31:45 DEBUG    accept
+2017-01-14 21:31:45 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:31:45 INFO     connecting pixel.quantserve.com:80
+2017-01-14 21:31:45 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:31:45 DEBUG    accept
+2017-01-14 21:31:45 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:31:45 INFO     connecting pixel.quantserve.com:80
+2017-01-14 21:31:45 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:31:45 DEBUG    accept
+2017-01-14 21:31:45 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:31:45 INFO     connecting p.skimresources.com:80
+2017-01-14 21:31:45 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:31:45 DEBUG    accept
+2017-01-14 21:31:45 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:31:45 INFO     connecting r.skimresources.com:80
+2017-01-14 21:31:45 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:31:48 DEBUG    accept
+2017-01-14 21:31:48 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:31:48 INFO     connecting connect.facebook.net:443
+2017-01-14 21:31:48 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:31:48 DEBUG    accept
+2017-01-14 21:31:48 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:31:48 INFO     connecting stats.g.doubleclick.net:443
+2017-01-14 21:31:48 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:31:48 DEBUG    destroy: pixel.quantserve.com:80
+2017-01-14 21:31:48 DEBUG    destroying remote
+2017-01-14 21:31:48 DEBUG    destroying local
+2017-01-14 21:31:49 DEBUG    destroy: edge.simplereach.com:80
+2017-01-14 21:31:49 DEBUG    destroying remote
+2017-01-14 21:31:49 DEBUG    destroying local
+2017-01-14 21:31:49 DEBUG    accept
+2017-01-14 21:31:49 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:31:49 INFO     connecting bcp.crwdcntrl.net:80
+2017-01-14 21:31:49 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:31:50 DEBUG    destroy: pixel.quantserve.com:80
+2017-01-14 21:31:50 DEBUG    destroying remote
+2017-01-14 21:31:50 DEBUG    destroying local
+2017-01-14 21:31:50 DEBUG    destroy: edge.quantserve.com:80
+2017-01-14 21:31:50 DEBUG    destroying remote
+2017-01-14 21:31:50 DEBUG    destroying local
+2017-01-14 21:31:51 DEBUG    accept
+2017-01-14 21:31:51 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:31:51 INFO     connecting x.skimresources.com:443
+2017-01-14 21:31:51 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:31:51 DEBUG    destroy: secure-us.imrworldwide.com:80
+2017-01-14 21:31:51 DEBUG    destroying remote
+2017-01-14 21:31:51 DEBUG    destroying local
+2017-01-14 21:31:51 DEBUG    accept
+2017-01-14 21:31:51 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:31:51 INFO     connecting ocsp.digicert.com:80
+2017-01-14 21:31:51 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:31:53 DEBUG    destroy: ocsp.digicert.com:80
+2017-01-14 21:31:53 DEBUG    destroying remote
+2017-01-14 21:31:53 DEBUG    destroying local
+2017-01-14 21:31:56 DEBUG    accept
+2017-01-14 21:31:56 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:31:56 INFO     connecting ocsp.digicert.com:80
+2017-01-14 21:31:56 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:31:57 DEBUG    accept
+2017-01-14 21:31:57 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:31:57 INFO     connecting p.skimresources.com:443
+2017-01-14 21:31:57 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:31:57 DEBUG    accept
+2017-01-14 21:31:57 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:31:57 INFO     connecting www.facebook.com:443
+2017-01-14 21:31:57 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:31:57 DEBUG    accept
+2017-01-14 21:31:57 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:31:57 INFO     connecting staticxx.facebook.com:80
+2017-01-14 21:31:57 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:31:57 DEBUG    accept
+2017-01-14 21:31:57 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:31:57 INFO     connecting staticxx.facebook.com:443
+2017-01-14 21:31:57 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:32:01 DEBUG    destroy: bcp.crwdcntrl.net:80
+2017-01-14 21:32:01 DEBUG    destroying remote
+2017-01-14 21:32:01 DEBUG    destroying local
+2017-01-14 21:32:01 DEBUG    destroy: toolbar3.diigo.com:443
+2017-01-14 21:32:01 DEBUG    destroying remote
+2017-01-14 21:32:01 DEBUG    destroying local
+2017-01-14 21:32:02 DEBUG    accept
+2017-01-14 21:32:02 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:32:02 INFO     connecting ping.chartbeat.net:80
+2017-01-14 21:32:02 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:32:02 DEBUG    accept
+2017-01-14 21:32:02 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:32:02 INFO     connecting secure-dcr.imrworldwide.com:80
+2017-01-14 21:32:02 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:32:02 DEBUG    accept
+2017-01-14 21:32:02 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:32:02 INFO     connecting secure-dcr.imrworldwide.com:80
+2017-01-14 21:32:02 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:32:07 DEBUG    destroy: edge.simplereach.com:80
+2017-01-14 21:32:07 DEBUG    destroying remote
+2017-01-14 21:32:07 DEBUG    destroying local
+2017-01-14 21:32:07 DEBUG    accept
+2017-01-14 21:32:07 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:32:07 INFO     connecting beacon.krxd.net:80
+2017-01-14 21:32:07 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:32:08 DEBUG    accept
+2017-01-14 21:32:08 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:32:08 INFO     connecting usermatch.krxd.net:443
+2017-01-14 21:32:08 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:32:08 DEBUG    accept
+2017-01-14 21:32:08 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:32:08 INFO     connecting aa.agkn.com:443
+2017-01-14 21:32:08 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:32:08 DEBUG    accept
+2017-01-14 21:32:08 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:32:08 INFO     connecting kr.ixiaa.com:80
+2017-01-14 21:32:08 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:32:08 DEBUG    accept
+2017-01-14 21:32:08 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:32:08 INFO     connecting aa.agkn.com:80
+2017-01-14 21:32:08 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:32:08 DEBUG    accept
+2017-01-14 21:32:08 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:32:08 INFO     connecting beacon.krxd.net:80
+2017-01-14 21:32:08 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:32:08 DEBUG    destroy: aa.agkn.com:80
+2017-01-14 21:32:08 DEBUG    destroying remote
+2017-01-14 21:32:08 DEBUG    destroying local
+2017-01-14 21:32:08 DEBUG    accept
+2017-01-14 21:32:08 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:32:08 INFO     connecting d.agkn.com:80
+2017-01-14 21:32:08 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:32:08 DEBUG    destroy: secure-dcr.imrworldwide.com:80
+2017-01-14 21:32:08 DEBUG    destroying remote
+2017-01-14 21:32:08 DEBUG    destroying local
+2017-01-14 21:32:09 DEBUG    accept
+2017-01-14 21:32:09 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:32:09 INFO     connecting apiservices.krxd.net:80
+2017-01-14 21:32:09 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:32:09 DEBUG    destroy: secure-dcr.imrworldwide.com:80
+2017-01-14 21:32:09 DEBUG    destroying remote
+2017-01-14 21:32:09 DEBUG    destroying local
+2017-01-14 21:32:09 DEBUG    destroy: secure-dcr.imrworldwide.com:80
+2017-01-14 21:32:09 DEBUG    destroying remote
+2017-01-14 21:32:09 DEBUG    destroying local
+2017-01-14 21:32:11 DEBUG    accept
+2017-01-14 21:32:11 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:32:11 DEBUG    accept
+2017-01-14 21:32:11 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:32:11 INFO     connecting gp.symcd.com:80
+2017-01-14 21:32:11 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:32:11 INFO     connecting ocsp.godaddy.com:80
+2017-01-14 21:32:11 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:32:11 DEBUG    accept
+2017-01-14 21:32:11 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:32:11 INFO     connecting ocsp.godaddy.com:80
+2017-01-14 21:32:11 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:32:11 DEBUG    destroy: beacon.krxd.net:80
+2017-01-14 21:32:11 DEBUG    destroying remote
+2017-01-14 21:32:11 DEBUG    destroying local
+2017-01-14 21:32:12 DEBUG    destroy: beacon.krxd.net:80
+2017-01-14 21:32:12 DEBUG    destroying remote
+2017-01-14 21:32:12 DEBUG    destroying local
+2017-01-14 21:32:12 DEBUG    destroy: ocsp.digicert.com:80
+2017-01-14 21:32:12 DEBUG    destroying remote
+2017-01-14 21:32:12 DEBUG    destroying local
+2017-01-14 21:32:12 DEBUG    destroy: ocsp.godaddy.com:80
+2017-01-14 21:32:12 DEBUG    destroying remote
+2017-01-14 21:32:12 DEBUG    destroying local
+2017-01-14 21:32:12 DEBUG    accept
+2017-01-14 21:32:12 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:32:12 INFO     connecting beacon.krxd.net:443
+2017-01-14 21:32:12 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:32:13 DEBUG    destroy: www.gstatic.com:443
+2017-01-14 21:32:13 DEBUG    destroying remote
+2017-01-14 21:32:13 DEBUG    destroying local
+2017-01-14 21:32:13 DEBUG    destroy: ssl.gstatic.com:443
+2017-01-14 21:32:13 DEBUG    destroying remote
+2017-01-14 21:32:13 DEBUG    destroying local
+2017-01-14 21:32:13 DEBUG    destroy: gp.symcd.com:80
+2017-01-14 21:32:13 DEBUG    destroying remote
+2017-01-14 21:32:13 DEBUG    destroying local
+2017-01-14 21:32:13 DEBUG    destroy: aa.agkn.com:443
+2017-01-14 21:32:13 DEBUG    destroying remote
+2017-01-14 21:32:13 DEBUG    destroying local
+2017-01-14 21:32:13 DEBUG    accept
+2017-01-14 21:32:13 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:32:13 INFO     connecting d.agkn.com:443
+2017-01-14 21:32:13 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:32:14 DEBUG    destroy: ogs.google.com:443
+2017-01-14 21:32:14 DEBUG    destroying remote
+2017-01-14 21:32:14 DEBUG    destroying local
+2017-01-14 21:32:14 DEBUG    accept
+2017-01-14 21:32:14 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:32:14 INFO     connecting gv.symcd.com:80
+2017-01-14 21:32:14 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:32:15 DEBUG    destroy: beacon.krxd.net:443
+2017-01-14 21:32:15 DEBUG    destroying remote
+2017-01-14 21:32:15 DEBUG    destroying local
+2017-01-14 21:32:16 DEBUG    destroy: lh3.googleusercontent.com:443
+2017-01-14 21:32:16 DEBUG    destroying remote
+2017-01-14 21:32:16 DEBUG    destroying local
+2017-01-14 21:32:16 DEBUG    accept
+2017-01-14 21:32:16 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:32:16 INFO     connecting beacon.krxd.net:443
+2017-01-14 21:32:16 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:32:16 DEBUG    destroy: ocsp.godaddy.com:80
+2017-01-14 21:32:16 DEBUG    destroying remote
+2017-01-14 21:32:16 DEBUG    destroying local
+2017-01-14 21:32:19 DEBUG    destroy: apiservices.krxd.net:80
+2017-01-14 21:32:19 DEBUG    destroying remote
+2017-01-14 21:32:19 DEBUG    destroying local
+2017-01-14 21:32:19 DEBUG    destroy: beacon.krxd.net:443
+2017-01-14 21:32:19 DEBUG    destroying remote
+2017-01-14 21:32:19 DEBUG    destroying local
+2017-01-14 21:32:19 DEBUG    destroy: plus.google.com:443
+2017-01-14 21:32:19 DEBUG    destroying remote
+2017-01-14 21:32:19 DEBUG    destroying local
+2017-01-14 21:32:20 DEBUG    destroy: apis.google.com:443
+2017-01-14 21:32:20 DEBUG    destroying remote
+2017-01-14 21:32:20 DEBUG    destroying local
+2017-01-14 21:32:21 DEBUG    accept
+2017-01-14 21:32:21 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:32:21 INFO     connecting trc.taboola.com:80
+2017-01-14 21:32:21 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:32:25 DEBUG    accept
+2017-01-14 21:32:25 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:32:25 INFO     connecting tags.bluekai.com:80
+2017-01-14 21:32:25 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:32:25 DEBUG    accept
+2017-01-14 21:32:25 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:32:25 INFO     connecting ad.atdmt.com:80
+2017-01-14 21:32:25 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:32:25 DEBUG    accept
+2017-01-14 21:32:25 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:32:25 INFO     connecting plated.sp1.convertro.com:80
+2017-01-14 21:32:25 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:32:25 DEBUG    accept
+2017-01-14 21:32:25 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:32:25 INFO     connecting resources.taboola.com:80
+2017-01-14 21:32:25 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:32:25 DEBUG    accept
+2017-01-14 21:32:25 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:32:25 INFO     connecting cdn.taboola.com:80
+2017-01-14 21:32:25 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:32:25 DEBUG    accept
+2017-01-14 21:32:25 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:32:25 INFO     connecting ad.atdmt.com:80
+2017-01-14 21:32:25 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:32:25 DEBUG    accept
+2017-01-14 21:32:25 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:32:25 INFO     connecting images.taboola.com:80
+2017-01-14 21:32:25 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:32:25 DEBUG    accept
+2017-01-14 21:32:25 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:32:25 INFO     connecting images.taboola.com:80
+2017-01-14 21:32:25 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:32:25 DEBUG    accept
+2017-01-14 21:32:25 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:32:25 INFO     connecting images.taboola.com:80
+2017-01-14 21:32:25 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:32:25 DEBUG    accept
+2017-01-14 21:32:25 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:32:25 DEBUG    accept
+2017-01-14 21:32:25 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:32:25 INFO     connecting images.taboola.com:80
+2017-01-14 21:32:25 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:32:25 INFO     connecting images.taboola.com:80
+2017-01-14 21:32:25 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:32:25 DEBUG    accept
+2017-01-14 21:32:25 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:32:25 INFO     connecting images.taboola.com:80
+2017-01-14 21:32:25 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:32:30 DEBUG    destroy: ad.atdmt.com:80
+2017-01-14 21:32:30 DEBUG    destroying remote
+2017-01-14 21:32:30 DEBUG    destroying local
+2017-01-14 21:32:36 DEBUG    destroy: c.amazon-adsystem.com:80
+2017-01-14 21:32:36 DEBUG    destroying remote
+2017-01-14 21:32:36 DEBUG    destroying local
+2017-01-14 21:32:36 DEBUG    destroy: www.googletagservices.com:80
+2017-01-14 21:32:36 DEBUG    destroying remote
+2017-01-14 21:32:36 DEBUG    destroying local
+2017-01-14 21:32:38 DEBUG    destroy: d8rk54i4mohrb.cloudfront.net:80
+2017-01-14 21:32:38 DEBUG    destroying remote
+2017-01-14 21:32:38 DEBUG    destroying local
+2017-01-14 21:32:38 DEBUG    destroy: x.kinja-static.com:80
+2017-01-14 21:32:38 DEBUG    destroying remote
+2017-01-14 21:32:38 DEBUG    destroying local
+2017-01-14 21:32:41 DEBUG    destroy: plated.sp1.convertro.com:80
+2017-01-14 21:32:41 DEBUG    destroying remote
+2017-01-14 21:32:41 DEBUG    destroying local
+2017-01-14 21:32:42 DEBUG    destroy: tags.bluekai.com:80
+2017-01-14 21:32:42 DEBUG    destroying remote
+2017-01-14 21:32:42 DEBUG    destroying local
+2017-01-14 21:32:46 DEBUG    destroy: p.skimresources.com:80
+2017-01-14 21:32:46 DEBUG    destroying remote
+2017-01-14 21:32:46 DEBUG    destroying local
+2017-01-14 21:32:48 DEBUG    got remote error
+2017-01-14 21:32:48 ERROR    [Errno 110] Connection timed out
+2017-01-14 21:32:48 DEBUG    destroy: securepubads.g.doubleclick.net:443
+2017-01-14 21:32:48 DEBUG    destroying remote
+2017-01-14 21:32:48 DEBUG    destroying local
+2017-01-14 21:32:48 DEBUG    destroy: toolbar3.diigo.com:443
+2017-01-14 21:32:48 DEBUG    destroying remote
+2017-01-14 21:32:48 DEBUG    destroying local
+2017-01-14 21:32:50 DEBUG    destroy: r.skimresources.com:80
+2017-01-14 21:32:50 DEBUG    destroying remote
+2017-01-14 21:32:50 DEBUG    destroying local
+2017-01-14 21:32:57 DEBUG    destroy: x.skimresources.com:443
+2017-01-14 21:32:57 DEBUG    destroying remote
+2017-01-14 21:32:57 DEBUG    destroying local
+2017-01-14 21:32:58 DEBUG    destroy: p.skimresources.com:443
+2017-01-14 21:32:58 DEBUG    destroying remote
+2017-01-14 21:32:58 DEBUG    destroying local
+2017-01-14 21:32:59 DEBUG    destroy: i.kinja-img.com:443
+2017-01-14 21:32:59 DEBUG    destroying remote
+2017-01-14 21:32:59 DEBUG    destroying local
+2017-01-14 21:33:00 DEBUG    accept
+2017-01-14 21:33:00 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:33:00 INFO     connecting cn.bing.com:80
+2017-01-14 21:33:00 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:33:01 DEBUG    accept
+2017-01-14 21:33:01 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:33:01 INFO     connecting cn.bing.com:80
+2017-01-14 21:33:01 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:33:01 DEBUG    destroy: cn.bing.com:80
+2017-01-14 21:33:01 DEBUG    destroying remote
+2017-01-14 21:33:01 DEBUG    destroying local
+2017-01-14 21:33:01 DEBUG    destroy: cn.bing.com:80
+2017-01-14 21:33:01 DEBUG    destroying remote
+2017-01-14 21:33:01 DEBUG    destroying local
+2017-01-14 21:33:01 DEBUG    accept
+2017-01-14 21:33:01 DEBUG    chosen server: a.ssx.host:1024
+2017-01-14 21:33:01 INFO     connecting toolbar3.diigo.com:443
+2017-01-14 21:33:01 DEBUG    hit cache: a.ssx.host
+2017-01-14 21:33:03 DEBUG    destroy: toolbar3.diigo.com:443
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: images.taboola.com:80
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: ad.atdmt.com:80
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: images.taboola.com:80
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: trc.taboola.com:80
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: images.taboola.com:80
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: kinja.com:80
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: cdn.taboola.com:80
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: pubads.g.doubleclick.net:80
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: pubads.g.doubleclick.net:80
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: b.scorecardresearch.com:80
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: staticxx.facebook.com:443
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: stats.g.doubleclick.net:443
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: cdn.krxd.net:80
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: resources.taboola.com:80
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: static.chartbeat.com:80
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: ping.chartbeat.net:80
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: s.skimresources.com:80
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: f.kinja-static.com:80
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: f.kinja-static.com:80
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: f.kinja-static.com:80
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: i.kinja-img.com:443
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: images.taboola.com:80
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: x.kinja-static.com:80
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: x.kinja-static.com:80
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: x.kinja-static.com:80
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: images.taboola.com:80
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: x.kinja-static.com:80
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: images.taboola.com:80
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: cdn.taboola.com:80
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: staticxx.facebook.com:80
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: lifehacker.com:80
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: d.agkn.com:80
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: www.google-analytics.com:443
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: i.ytimg.com:443
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: i.kinja-img.com:443
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: i.kinja-img.com:443
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: i.kinja-img.com:443
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: fonts.gstatic.com:443
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: www.youtube.com:443
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: connect.facebook.net:443
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: i.kinja-img.com:443
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: usermatch.krxd.net:443
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: kinja.com:443
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: www.facebook.com:443
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: gv.symcd.com:80
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: kr.ixiaa.com:80
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: clients1.google.com:80
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: clients1.google.com:80
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: s.ytimg.com:443
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: id.google.com:443
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: d.agkn.com:443
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:33:03 DEBUG    destroy: www.google.com:443
+2017-01-14 21:33:03 DEBUG    destroying remote
+2017-01-14 21:33:03 DEBUG    destroying local
+2017-01-14 21:34:26 DEBUG    2 keys swept
