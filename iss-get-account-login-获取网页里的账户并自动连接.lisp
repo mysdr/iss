@@ -39,25 +39,33 @@
         (port nil)
         (password nil))
     (setf server
-          (cl-ppcre:scan-to-strings "[^:].*[^<]"
-                                    (cl-ppcre:scan-to-strings ":.*<"
-                                                              (cl-ppcre:scan-to-strings "<div class=\"col-sm-4 text-center\">.*
+          (cl-ppcre:scan-to-strings
+           "[^:].*[^<]"
+           (cl-ppcre:scan-to-strings
+            ":.*<"
+            (cl-ppcre:scan-to-strings
+             "<div class=\"col-sm-4 text-center\">.*
 .*"
-                                                                                        *iss*))))
+             *iss*))))
     (setf port
-          (cl-ppcre:scan-to-strings "[^:].*[^<]"
-                                    (cl-ppcre:scan-to-strings ":.*<"
-                                                              (cl-ppcre:scan-to-strings "<h4>.*
+          (cl-ppcre:scan-to-strings
+           "[^:].*[^<]"
+           (cl-ppcre:scan-to-strings
+            ":.*<"
+            (cl-ppcre:scan-to-strings "<h4>.*
 <h4>.*"
-                                                                                        *iss*))))
+                                      *iss*))))
     (setf password
-          (cl-ppcre:scan-to-strings "[^:].*[^<]"
-                                    (cl-ppcre:scan-to-strings ":.*<"
-                                                              (cl-ppcre:scan-to-strings "
+          (cl-ppcre:scan-to-strings
+           "[^:].*[^<]"
+           (cl-ppcre:scan-to-strings
+            ":.*<"
+            (cl-ppcre:scan-to-strings
+             "
 <h4>.*<"
-                                                                                        (cl-ppcre:scan-to-strings "<h4>.*
+             (cl-ppcre:scan-to-strings "<h4>.*
 <h4>.*"
-                                                                                                                  *iss*)))))
+                                       *iss*)))))
     (format out "{
 \"server\":\"~A\",
 \"server_port\":~A,
@@ -78,7 +86,7 @@
 
 ;;; start shadowsocks
 
-;; sslocal -c ~/ss.json
+;; sslocal -c ./ss.json
 
 (ql:quickload :external-program)
 (with-open-file (out "./log.txt"
