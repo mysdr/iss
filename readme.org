@@ -14,11 +14,21 @@ Shadowsocks Configure: ./ss.json
 
 Shadowsocks Log: ./log.txt
 
-** Stop Shadowsocks (On Terminal) 关闭
+** Stop Shadowsocks 关闭
 
-1. netstat -lnp|grep 1080
+*** On Terminal
 
-2. kill -9 [port]
+1. pgrep -l sslocal
+
+2. kill -9 [pid]
+
+*** On SBCL
+
+(stop-ss)
+
+** Restart Shadowsocks 重启
+
+(restart-ss)
 
 ** Show Time of Load this Program 查看耗时
 
@@ -29,3 +39,6 @@ Time of this program: (time-of-this-program)
 1. Shadowsocks Configure and Log file is auto generated. 配置与日志自动生成。
 
 2. Lisp will auto exit after load this file. Lisp 环境会自动退出。
+
+3. Readme is auto generated.
+
