@@ -1,0 +1,31 @@
+* Help Info 使用说明
+
+** Start Shadowsocks 启动
+
+On SLIME: M-x load-file [this Lisp file]
+
+On SBCL: (load [this Lisp file])
+
+On Terminal: sbcl --load [this Lisp file]
+
+** Configure and Log File of Shadowsocks 配置与日志
+
+Shadowsocks Configure: ./ss.json
+
+Shadowsocks Log: ./log.txt
+
+** Stop Shadowsocks (On Terminal) 关闭
+
+1. netstat -lnp|grep 1080
+
+2. kill -9 [port]
+
+** Show Time of Load this Program 查看耗时
+
+Time of this program: (time-of-this-program)
+
+** Attention 注意事项
+
+1. Shadowsocks Configure and Log file is auto generated. 配置与日志自动生成。
+
+2. Lisp will auto exit after load this file. Lisp 环境会自动退出。
