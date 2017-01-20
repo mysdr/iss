@@ -1,3 +1,6 @@
+;;;; 获取在线 shadowsocks 账号并自动连接
+
+
 ;;;
 ;;; version
 ;;;
@@ -31,6 +34,9 @@
 ;;; todo
 ;;;
 
+;; 无法访问网址
+;; Restart bug: when start after stop.先停止后启动，不能正常退出 Lisp 环境.
+;; Some Info Dont't Print
 ;; Manage help info
 ;; DONE: Make it auto run when compute boots
 ;; Simplify the way of writing to a file
@@ -49,7 +55,8 @@
 
 (ql:quickload :drakma)
 (defvar *iss*
-  (drakma:http-request "http://www.ishadowsocks.me/"))
+  (drakma:http-request "http://www.ishadowsocks.co/"))
+;; (drakma:http-request "http://iss.pm/")
 
 ;; write to a file
 
@@ -118,11 +125,12 @@
                        :direction :output
                        :if-does-not-exist :create
                        :if-exists :append)
+    ;; Can't exit SBCL: <2017-01-15 Sun 15:53:30>
     (external-program:run "sslocal"
                           ;; directore should be absolute
                           '("-c" "./ss.json" "-v")
-                          :output out))
-  "Shadowsocks is Started.")
+                          :output out)
+    "Shadowsocks is Started."))
 ;; (start-ss)
 
 
@@ -144,9 +152,10 @@
 (defun stop-ss ()
   (if (> (length (get-program-pid "sslocal"))
          0)
-      (external-program:run "kill"
-                            `("-9" ,(get-program-pid "sslocal"))))
-  "Shadowsocks is Stoped.")
+      (progn
+        (external-program:run "kill"
+                              `("-9" ,(get-program-pid "sslocal")))
+        "Shadowsocks is Stoped.")))
 ;; (stop-ss)
 
 
@@ -221,13 +230,14 @@ Time of this program: (time-of-this-program)
 ")
 
 ;; save readme
+
 (defun save-readme ()
   (with-open-file (out "./readme.org"
                        :direction :output
                        :if-does-not-exist :create
                        :if-exists :supersede)
     (format out "~A" *help-info*)
-    *help-info*))
+    (format nil "~A" *help-info*)))
 
 
 ;;; Time of this program

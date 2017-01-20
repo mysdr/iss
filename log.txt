@@ -1298,3 +1298,2750 @@ Traceback (most recent call last):
   File "/usr/lib/python2.7/socket.py", line 228, in meth
     return getattr(self._sock,name)(*args)
 error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 11:46:22 INFO     starting local at 127.0.0.1:1080
+2017-01-15 11:46:22 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 12:40:59 INFO     starting local at 127.0.0.1:1080
+2017-01-15 12:40:59 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 12:41:24 INFO     starting local at 127.0.0.1:1080
+2017-01-15 12:41:24 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 12:41:55 INFO     starting local at 127.0.0.1:1080
+2017-01-15 12:41:55 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 12:43:30 INFO     starting local at 127.0.0.1:1080
+2017-01-15 12:43:30 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+2017-01-15 12:46:35 DEBUG    accept
+2017-01-15 12:46:35 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 12:46:35 INFO     connecting shavar.services.mozilla.com:443
+2017-01-15 12:46:35 DEBUG    resolving a.ssx.host with type 1 using server 192.168.31.1
+2017-01-15 12:46:35 DEBUG    destroy: shavar.services.mozilla.com:443
+2017-01-15 12:46:35 DEBUG    destroying remote
+2017-01-15 12:46:35 DEBUG    destroying local
+2017-01-15 12:46:39 DEBUG    accept
+2017-01-15 12:46:39 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 12:46:39 INFO     connecting token.services.mozilla.com:443
+2017-01-15 12:46:39 DEBUG    hit cache: a.ssx.host
+2017-01-15 12:46:39 DEBUG    destroy: token.services.mozilla.com:443
+2017-01-15 12:46:39 DEBUG    destroying remote
+2017-01-15 12:46:39 DEBUG    destroying local
+2017-01-15 12:46:39 DEBUG    accept
+2017-01-15 12:46:39 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 12:46:39 INFO     connecting sync-329-us-west-2.sync.services.mozilla.com:443
+2017-01-15 12:46:39 DEBUG    hit cache: a.ssx.host
+2017-01-15 12:46:40 DEBUG    destroy: sync-329-us-west-2.sync.services.mozilla.com:443
+2017-01-15 12:46:40 DEBUG    destroying remote
+2017-01-15 12:46:40 DEBUG    destroying local
+2017-01-15 12:47:35 DEBUG    accept
+2017-01-15 12:47:35 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 12:47:35 INFO     connecting shavar.services.mozilla.com:443
+2017-01-15 12:47:35 DEBUG    hit cache: a.ssx.host
+2017-01-15 12:47:36 DEBUG    destroy: shavar.services.mozilla.com:443
+2017-01-15 12:47:36 DEBUG    destroying remote
+2017-01-15 12:47:36 DEBUG    destroying local
+INFO: loading config from ./ss.json
+2017-01-15 12:53:13 INFO     starting local at 127.0.0.1:1080
+2017-01-15 12:53:13 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 12:53:35 INFO     starting local at 127.0.0.1:1080
+2017-01-15 12:53:35 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 12:54:30 INFO     starting local at 127.0.0.1:1080
+2017-01-15 12:54:30 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 12:54:34 INFO     starting local at 127.0.0.1:1080
+2017-01-15 12:54:34 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 12:55:46 INFO     starting local at 127.0.0.1:1080
+2017-01-15 12:55:46 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 12:55:52 INFO     starting local at 127.0.0.1:1080
+2017-01-15 12:55:52 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 12:56:09 INFO     starting local at 127.0.0.1:1080
+2017-01-15 12:56:09 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 12:58:42 INFO     starting local at 127.0.0.1:1080
+2017-01-15 12:58:42 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 12:58:53 INFO     starting local at 127.0.0.1:1080
+2017-01-15 12:58:53 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 12:58:55 INFO     starting local at 127.0.0.1:1080
+2017-01-15 12:58:55 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 12:58:57 INFO     starting local at 127.0.0.1:1080
+2017-01-15 12:58:57 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 13:04:51 INFO     starting local at 127.0.0.1:1080
+2017-01-15 13:04:51 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 13:04:52 INFO     starting local at 127.0.0.1:1080
+2017-01-15 13:04:52 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 13:04:58 INFO     starting local at 127.0.0.1:1080
+2017-01-15 13:04:58 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 13:05:01 INFO     starting local at 127.0.0.1:1080
+2017-01-15 13:05:01 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 13:05:02 INFO     starting local at 127.0.0.1:1080
+2017-01-15 13:05:02 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 13:05:03 INFO     starting local at 127.0.0.1:1080
+2017-01-15 13:05:03 DEBUG    using event model: epoll
+2017-01-15 13:05:03 DEBUG    accept
+2017-01-15 13:05:03 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 13:05:03 INFO     connecting safebrowsing.google.com:443
+2017-01-15 13:05:03 DEBUG    resolving a.ssx.host with type 1 using server 192.168.31.1
+INFO: loading config from ./ss.json
+2017-01-15 13:05:04 INFO     starting local at 127.0.0.1:1080
+2017-01-15 13:05:04 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 13:05:06 INFO     starting local at 127.0.0.1:1080
+2017-01-15 13:05:06 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 13:05:07 INFO     starting local at 127.0.0.1:1080
+2017-01-15 13:05:07 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 13:05:07 INFO     starting local at 127.0.0.1:1080
+2017-01-15 13:05:07 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 13:05:09 INFO     starting local at 127.0.0.1:1080
+2017-01-15 13:05:09 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 13:05:10 INFO     starting local at 127.0.0.1:1080
+2017-01-15 13:05:10 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 13:09:30 INFO     starting local at 127.0.0.1:1080
+2017-01-15 13:09:30 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 13:09:34 INFO     starting local at 127.0.0.1:1080
+2017-01-15 13:09:34 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 13:09:36 INFO     starting local at 127.0.0.1:1080
+2017-01-15 13:09:36 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 13:11:06 INFO     starting local at 127.0.0.1:1080
+2017-01-15 13:11:06 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 13:11:34 INFO     starting local at 127.0.0.1:1080
+2017-01-15 13:11:34 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 13:12:03 INFO     starting local at 127.0.0.1:1080
+2017-01-15 13:12:03 DEBUG    using event model: epoll
+2017-01-15 13:25:28 DEBUG    accept
+2017-01-15 13:25:28 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 13:25:28 INFO     connecting versioncheck.addons.mozilla.org:443
+2017-01-15 13:25:28 DEBUG    resolving a.ssx.host with type 1 using server 192.168.31.1
+2017-01-15 13:25:28 DEBUG    accept
+2017-01-15 13:25:28 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 13:25:28 INFO     connecting services.addons.mozilla.org:443
+2017-01-15 13:25:28 DEBUG    resolving a.ssx.host with type 1 using server 192.168.31.1
+2017-01-15 13:25:30 DEBUG    accept
+2017-01-15 13:25:30 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 13:25:30 INFO     connecting ocsp.digicert.com:80
+2017-01-15 13:25:30 DEBUG    hit cache: a.ssx.host
+2017-01-15 13:25:35 DEBUG    accept
+2017-01-15 13:25:35 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 13:25:35 INFO     connecting versioncheck-bg.addons.mozilla.org:443
+2017-01-15 13:25:35 DEBUG    hit cache: a.ssx.host
+2017-01-15 13:25:35 DEBUG    accept
+2017-01-15 13:25:35 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 13:25:35 INFO     connecting update.userstyles.org:443
+2017-01-15 13:25:35 DEBUG    hit cache: a.ssx.host
+2017-01-15 13:25:35 DEBUG    accept
+2017-01-15 13:25:35 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 13:25:35 INFO     connecting greasyfork.org:443
+2017-01-15 13:25:35 DEBUG    hit cache: a.ssx.host
+2017-01-15 13:25:35 DEBUG    accept
+2017-01-15 13:25:35 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 13:25:35 INFO     connecting userscripts.org:443
+2017-01-15 13:25:35 DEBUG    hit cache: a.ssx.host
+2017-01-15 13:25:35 DEBUG    accept
+2017-01-15 13:25:35 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 13:25:35 INFO     connecting github.com:443
+2017-01-15 13:25:35 DEBUG    hit cache: a.ssx.host
+2017-01-15 13:25:35 DEBUG    accept
+2017-01-15 13:25:35 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 13:25:35 INFO     connecting ocsp2.globalsign.com:80
+2017-01-15 13:25:35 DEBUG    hit cache: a.ssx.host
+2017-01-15 13:25:35 DEBUG    accept
+2017-01-15 13:25:35 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 13:25:35 DEBUG    accept
+2017-01-15 13:25:35 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 13:25:35 DEBUG    accept
+2017-01-15 13:25:35 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 13:25:35 DEBUG    accept
+2017-01-15 13:25:35 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 13:25:35 INFO     connecting versioncheck-bg.addons.mozilla.org:443
+2017-01-15 13:25:35 DEBUG    hit cache: a.ssx.host
+2017-01-15 13:25:35 DEBUG    accept
+2017-01-15 13:25:35 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 13:25:35 INFO     connecting versioncheck-bg.addons.mozilla.org:443
+2017-01-15 13:25:35 DEBUG    hit cache: a.ssx.host
+2017-01-15 13:25:35 INFO     connecting versioncheck-bg.addons.mozilla.org:443
+2017-01-15 13:25:35 DEBUG    hit cache: a.ssx.host
+2017-01-15 13:25:35 INFO     connecting versioncheck-bg.addons.mozilla.org:443
+2017-01-15 13:25:35 DEBUG    hit cache: a.ssx.host
+2017-01-15 13:25:35 INFO     connecting versioncheck-bg.addons.mozilla.org:443
+2017-01-15 13:25:35 DEBUG    hit cache: a.ssx.host
+2017-01-15 13:25:37 DEBUG    accept
+2017-01-15 13:25:37 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 13:25:37 INFO     connecting ocsp2.globalsign.com:80
+2017-01-15 13:25:37 DEBUG    hit cache: a.ssx.host
+2017-01-15 13:25:37 DEBUG    accept
+2017-01-15 13:25:37 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 13:25:37 INFO     connecting update.userstyles.org:443
+2017-01-15 13:25:37 DEBUG    hit cache: a.ssx.host
+2017-01-15 13:25:37 DEBUG    accept
+2017-01-15 13:25:37 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 13:25:37 DEBUG    accept
+2017-01-15 13:25:37 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 13:25:37 DEBUG    accept
+2017-01-15 13:25:37 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 13:25:37 DEBUG    accept
+2017-01-15 13:25:37 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 13:25:37 INFO     connecting update.userstyles.org:443
+2017-01-15 13:25:37 DEBUG    hit cache: a.ssx.host
+2017-01-15 13:25:37 INFO     connecting update.userstyles.org:443
+2017-01-15 13:25:37 DEBUG    hit cache: a.ssx.host
+2017-01-15 13:25:37 INFO     connecting update.userstyles.org:443
+2017-01-15 13:25:37 DEBUG    hit cache: a.ssx.host
+2017-01-15 13:25:37 INFO     connecting update.userstyles.org:443
+2017-01-15 13:25:37 DEBUG    hit cache: a.ssx.host
+2017-01-15 13:25:39 DEBUG    destroy: ocsp2.globalsign.com:80
+2017-01-15 13:25:39 DEBUG    destroying remote
+2017-01-15 13:25:39 DEBUG    destroying local
+2017-01-15 13:25:51 DEBUG    destroy: ocsp.digicert.com:80
+2017-01-15 13:25:51 DEBUG    destroying remote
+2017-01-15 13:25:51 DEBUG    destroying local
+2017-01-15 13:26:09 DEBUG    accept
+2017-01-15 13:26:09 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 13:26:09 INFO     connecting ocsp.digicert.com:80
+2017-01-15 13:26:09 DEBUG    hit cache: a.ssx.host
+2017-01-15 13:26:10 DEBUG    destroy: github.com:443
+2017-01-15 13:26:10 DEBUG    destroying remote
+2017-01-15 13:26:10 DEBUG    destroying local
+2017-01-15 13:26:10 DEBUG    accept
+2017-01-15 13:26:10 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 13:26:10 INFO     connecting github.com:443
+2017-01-15 13:26:10 DEBUG    hit cache: a.ssx.host
+2017-01-15 13:26:11 DEBUG    accept
+2017-01-15 13:26:11 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 13:26:11 INFO     connecting ocsp.digicert.com:80
+2017-01-15 13:26:11 DEBUG    hit cache: a.ssx.host
+2017-01-15 13:26:12 DEBUG    destroy: greasyfork.org:443
+2017-01-15 13:26:12 DEBUG    destroying remote
+2017-01-15 13:26:12 DEBUG    destroying local
+2017-01-15 13:26:12 DEBUG    accept
+2017-01-15 13:26:12 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 13:26:12 INFO     connecting raw.githubusercontent.com:443
+2017-01-15 13:26:12 DEBUG    hit cache: a.ssx.host
+2017-01-15 13:26:20 DEBUG    destroy: userscripts.org:443
+2017-01-15 13:26:20 DEBUG    destroying remote
+2017-01-15 13:26:20 DEBUG    destroying local
+2017-01-15 13:26:22 DEBUG    destroy: github.com:443
+2017-01-15 13:26:22 DEBUG    destroying remote
+2017-01-15 13:26:22 DEBUG    destroying local
+2017-01-15 13:26:23 DEBUG    destroy: ocsp2.globalsign.com:80
+2017-01-15 13:26:23 DEBUG    destroying remote
+2017-01-15 13:26:23 DEBUG    destroying local
+2017-01-15 13:26:27 DEBUG    destroy: ocsp.digicert.com:80
+2017-01-15 13:26:27 DEBUG    destroying remote
+2017-01-15 13:26:27 DEBUG    destroying local
+2017-01-15 13:26:30 DEBUG    destroy: ocsp.digicert.com:80
+2017-01-15 13:26:30 DEBUG    destroying remote
+2017-01-15 13:26:30 DEBUG    destroying local
+2017-01-15 13:26:39 DEBUG    destroy: versioncheck-bg.addons.mozilla.org:443
+2017-01-15 13:26:39 DEBUG    destroying remote
+2017-01-15 13:26:39 DEBUG    destroying local
+2017-01-15 13:26:39 DEBUG    destroy: versioncheck-bg.addons.mozilla.org:443
+2017-01-15 13:26:39 DEBUG    destroying remote
+2017-01-15 13:26:39 DEBUG    destroying local
+2017-01-15 13:26:39 DEBUG    destroy: versioncheck-bg.addons.mozilla.org:443
+2017-01-15 13:26:39 DEBUG    destroying remote
+2017-01-15 13:26:39 DEBUG    destroying local
+2017-01-15 13:26:39 DEBUG    destroy: versioncheck-bg.addons.mozilla.org:443
+2017-01-15 13:26:39 DEBUG    destroying remote
+2017-01-15 13:26:39 DEBUG    destroying local
+2017-01-15 13:26:39 DEBUG    destroy: versioncheck-bg.addons.mozilla.org:443
+2017-01-15 13:26:39 DEBUG    destroying remote
+2017-01-15 13:26:39 DEBUG    destroying local
+2017-01-15 13:26:43 DEBUG    destroy: update.userstyles.org:443
+2017-01-15 13:26:43 DEBUG    destroying remote
+2017-01-15 13:26:43 DEBUG    destroying local
+2017-01-15 13:26:44 DEBUG    destroy: update.userstyles.org:443
+2017-01-15 13:26:44 DEBUG    destroying remote
+2017-01-15 13:26:44 DEBUG    destroying local
+2017-01-15 13:26:44 DEBUG    destroy: versioncheck-bg.addons.mozilla.org:443
+2017-01-15 13:26:44 DEBUG    destroying remote
+2017-01-15 13:26:44 DEBUG    destroying local
+2017-01-15 13:26:44 DEBUG    destroy: update.userstyles.org:443
+2017-01-15 13:26:44 DEBUG    destroying remote
+2017-01-15 13:26:44 DEBUG    destroying local
+2017-01-15 13:26:50 DEBUG    destroy: update.userstyles.org:443
+2017-01-15 13:26:50 DEBUG    destroying remote
+2017-01-15 13:26:50 DEBUG    destroying local
+2017-01-15 13:27:01 DEBUG    destroy: update.userstyles.org:443
+2017-01-15 13:27:01 DEBUG    destroying remote
+2017-01-15 13:27:01 DEBUG    destroying local
+INFO: loading config from ./ss.json
+2017-01-15 13:27:15 INFO     starting local at 127.0.0.1:1080
+2017-01-15 13:27:15 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+2017-01-15 13:27:28 DEBUG    accept
+2017-01-15 13:27:28 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 13:27:28 INFO     connecting blocklist.addons.mozilla.org:443
+2017-01-15 13:27:28 DEBUG    hit cache: a.ssx.host
+2017-01-15 13:27:29 DEBUG    accept
+2017-01-15 13:27:29 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 13:27:29 INFO     connecting blocklists.settings.services.mozilla.com:443
+2017-01-15 13:27:29 DEBUG    hit cache: a.ssx.host
+2017-01-15 13:27:29 DEBUG    destroy: services.addons.mozilla.org:443
+2017-01-15 13:27:29 DEBUG    destroying remote
+2017-01-15 13:27:29 DEBUG    destroying local
+2017-01-15 13:27:30 DEBUG    destroy: update.userstyles.org:443
+2017-01-15 13:27:30 DEBUG    destroying remote
+2017-01-15 13:27:30 DEBUG    destroying local
+2017-01-15 13:27:39 DEBUG    destroy: versioncheck.addons.mozilla.org:443
+2017-01-15 13:27:39 DEBUG    destroying remote
+2017-01-15 13:27:39 DEBUG    destroying local
+2017-01-15 13:28:08 DEBUG    accept
+2017-01-15 13:28:08 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 13:28:08 INFO     connecting ocsp.digicert.com:80
+2017-01-15 13:28:08 DEBUG    hit cache: a.ssx.host
+2017-01-15 13:28:08 DEBUG    destroy: raw.githubusercontent.com:443
+2017-01-15 13:28:08 DEBUG    destroying remote
+2017-01-15 13:28:08 DEBUG    destroying local
+2017-01-15 13:28:24 DEBUG    destroy: ocsp.digicert.com:80
+2017-01-15 13:28:24 DEBUG    destroying remote
+2017-01-15 13:28:24 DEBUG    destroying local
+2017-01-15 13:28:29 DEBUG    destroy: blocklist.addons.mozilla.org:443
+2017-01-15 13:28:29 DEBUG    destroying remote
+2017-01-15 13:28:29 DEBUG    destroying local
+INFO: loading config from ./ss.json
+2017-01-15 13:28:42 INFO     starting local at 127.0.0.1:1080
+2017-01-15 13:28:42 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 13:31:17 INFO     starting local at 127.0.0.1:1080
+2017-01-15 13:31:17 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 13:33:37 INFO     starting local at 127.0.0.1:1080
+2017-01-15 13:33:37 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 13:36:03 INFO     starting local at 127.0.0.1:1080
+2017-01-15 13:36:03 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 13:39:12 INFO     starting local at 127.0.0.1:1080
+2017-01-15 13:39:12 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 13:39:38 INFO     starting local at 127.0.0.1:1080
+2017-01-15 13:39:38 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 13:40:07 INFO     starting local at 127.0.0.1:1080
+2017-01-15 13:40:07 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 13:42:33 INFO     starting local at 127.0.0.1:1080
+2017-01-15 13:42:33 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 13:43:06 INFO     starting local at 127.0.0.1:1080
+2017-01-15 13:43:06 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 13:43:54 INFO     starting local at 127.0.0.1:1080
+2017-01-15 13:43:54 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+2017-01-15 13:44:06 DEBUG    accept
+2017-01-15 13:44:06 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 13:44:06 INFO     connecting shavar.services.mozilla.com:443
+2017-01-15 13:44:06 DEBUG    resolving a.ssx.host with type 1 using server 192.168.31.1
+INFO: loading config from ./ss.json
+2017-01-15 13:45:26 INFO     starting local at 127.0.0.1:1080
+2017-01-15 13:45:26 DEBUG    using event model: epoll
+2017-01-15 13:46:40 DEBUG    accept
+2017-01-15 13:46:40 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 13:46:40 INFO     connecting token.services.mozilla.com:443
+2017-01-15 13:46:40 DEBUG    resolving a.ssx.host with type 1 using server 192.168.31.1
+2017-01-15 13:46:41 DEBUG    accept
+2017-01-15 13:46:41 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 13:46:41 INFO     connecting sync-329-us-west-2.sync.services.mozilla.com:443
+2017-01-15 13:46:41 DEBUG    hit cache: a.ssx.host
+INFO: loading config from ./ss.json
+2017-01-15 13:46:42 INFO     starting local at 127.0.0.1:1080
+2017-01-15 13:46:42 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+2017-01-15 13:46:52 DEBUG    destroy: token.services.mozilla.com:443
+2017-01-15 13:46:52 DEBUG    destroying remote
+2017-01-15 13:46:52 DEBUG    destroying local
+2017-01-15 13:47:54 DEBUG    destroy: sync-329-us-west-2.sync.services.mozilla.com:443
+2017-01-15 13:47:54 DEBUG    destroying remote
+2017-01-15 13:47:54 DEBUG    destroying local
+2017-01-15 13:51:57 DEBUG    1 keys swept
+INFO: loading config from ./ss.json
+2017-01-15 14:19:00 INFO     starting local at 127.0.0.1:1080
+2017-01-15 14:19:00 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 14:21:05 INFO     starting local at 127.0.0.1:1080
+2017-01-15 14:21:05 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 14:21:36 INFO     starting local at 127.0.0.1:1080
+2017-01-15 14:21:36 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 14:21:59 INFO     starting local at 127.0.0.1:1080
+2017-01-15 14:21:59 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 14:23:35 INFO     starting local at 127.0.0.1:1080
+2017-01-15 14:23:35 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 14:24:39 INFO     starting local at 127.0.0.1:1080
+2017-01-15 14:24:39 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 14:25:27 INFO     starting local at 127.0.0.1:1080
+2017-01-15 14:25:27 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 14:35:13 INFO     starting local at 127.0.0.1:1080
+2017-01-15 14:35:13 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 14:37:27 INFO     starting local at 127.0.0.1:1080
+2017-01-15 14:37:27 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 14:38:08 INFO     starting local at 127.0.0.1:1080
+2017-01-15 14:38:08 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 14:38:34 INFO     starting local at 127.0.0.1:1080
+2017-01-15 14:38:34 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 14:38:44 INFO     starting local at 127.0.0.1:1080
+2017-01-15 14:38:44 DEBUG    using event model: epoll
+2017-01-15 14:38:55 DEBUG    accept
+2017-01-15 14:38:55 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 14:38:55 INFO     connecting safebrowsing.google.com:443
+2017-01-15 14:38:55 DEBUG    resolving a.ssx.host with type 1 using server 192.168.31.1
+2017-01-15 14:38:56 DEBUG    accept
+2017-01-15 14:38:56 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 14:38:56 INFO     connecting safebrowsing-cache.google.com:443
+2017-01-15 14:38:56 DEBUG    hit cache: a.ssx.host
+INFO: loading config from ./ss.json
+2017-01-15 14:40:04 INFO     starting local at 127.0.0.1:1080
+2017-01-15 14:40:04 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 14:40:34 INFO     starting local at 127.0.0.1:1080
+2017-01-15 14:40:34 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 14:40:58 INFO     starting local at 127.0.0.1:1080
+2017-01-15 14:40:58 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 14:41:08 INFO     starting local at 127.0.0.1:1080
+2017-01-15 14:41:08 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 14:41:27 INFO     starting local at 127.0.0.1:1080
+2017-01-15 14:41:27 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 14:42:15 INFO     starting local at 127.0.0.1:1080
+2017-01-15 14:42:15 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 14:42:30 INFO     starting local at 127.0.0.1:1080
+2017-01-15 14:42:30 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 14:43:20 INFO     starting local at 127.0.0.1:1080
+2017-01-15 14:43:20 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 14:43:27 INFO     starting local at 127.0.0.1:1080
+2017-01-15 14:43:27 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 14:43:41 INFO     starting local at 127.0.0.1:1080
+2017-01-15 14:43:41 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 14:44:03 INFO     starting local at 127.0.0.1:1080
+2017-01-15 14:44:03 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 14:44:43 INFO     starting local at 127.0.0.1:1080
+2017-01-15 14:44:43 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 14:47:41 INFO     starting local at 127.0.0.1:1080
+2017-01-15 14:47:41 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 14:48:24 INFO     starting local at 127.0.0.1:1080
+2017-01-15 14:48:24 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 14:48:30 INFO     starting local at 127.0.0.1:1080
+2017-01-15 14:48:30 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 14:48:41 INFO     starting local at 127.0.0.1:1080
+2017-01-15 14:48:41 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 14:49:27 INFO     starting local at 127.0.0.1:1080
+2017-01-15 14:49:27 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 14:49:31 INFO     starting local at 127.0.0.1:1080
+2017-01-15 14:49:31 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 14:49:41 INFO     starting local at 127.0.0.1:1080
+2017-01-15 14:49:41 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 14:49:48 INFO     starting local at 127.0.0.1:1080
+2017-01-15 14:49:48 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 14:50:00 INFO     starting local at 127.0.0.1:1080
+2017-01-15 14:50:00 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 14:53:57 INFO     starting local at 127.0.0.1:1080
+2017-01-15 14:53:57 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 14:54:03 INFO     starting local at 127.0.0.1:1080
+2017-01-15 14:54:03 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 14:54:24 INFO     starting local at 127.0.0.1:1080
+2017-01-15 14:54:24 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 14:54:29 INFO     starting local at 127.0.0.1:1080
+2017-01-15 14:54:29 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 14:54:41 INFO     starting local at 127.0.0.1:1080
+2017-01-15 14:54:41 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 14:54:50 INFO     starting local at 127.0.0.1:1080
+2017-01-15 14:54:50 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 14:55:02 INFO     starting local at 127.0.0.1:1080
+2017-01-15 14:55:02 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 14:55:33 INFO     starting local at 127.0.0.1:1080
+2017-01-15 14:55:33 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 14:55:49 INFO     starting local at 127.0.0.1:1080
+2017-01-15 14:55:49 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 14:55:57 INFO     starting local at 127.0.0.1:1080
+2017-01-15 14:55:57 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 14:57:06 INFO     starting local at 127.0.0.1:1080
+2017-01-15 14:57:06 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 14:57:19 INFO     starting local at 127.0.0.1:1080
+2017-01-15 14:57:19 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 15:00:04 INFO     starting local at 127.0.0.1:1080
+2017-01-15 15:00:04 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 15:01:14 INFO     starting local at 127.0.0.1:1080
+2017-01-15 15:01:14 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 15:01:46 INFO     starting local at 127.0.0.1:1080
+2017-01-15 15:01:46 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 15:03:04 INFO     starting local at 127.0.0.1:1080
+2017-01-15 15:03:04 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 15:17:17 INFO     starting local at 127.0.0.1:1080
+2017-01-15 15:17:17 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 15:17:52 INFO     starting local at 127.0.0.1:1080
+2017-01-15 15:17:52 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 15:18:37 INFO     starting local at 127.0.0.1:1080
+2017-01-15 15:18:37 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 15:19:22 INFO     starting local at 127.0.0.1:1080
+2017-01-15 15:19:22 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+2017-01-15 15:20:35 DEBUG    accept
+2017-01-15 15:20:35 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 15:20:35 INFO     connecting www.google.com:443
+2017-01-15 15:20:35 DEBUG    resolving a.ssx.host with type 1 using server 192.168.31.1
+2017-01-15 15:20:35 DEBUG    accept
+2017-01-15 15:20:35 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 15:20:35 INFO     connecting www.google.com:443
+2017-01-15 15:20:35 DEBUG    resolving a.ssx.host with type 1 using server 192.168.31.1
+2017-01-15 15:20:35 DEBUG    destroy: www.google.com:443
+2017-01-15 15:20:35 DEBUG    destroying remote
+2017-01-15 15:20:35 DEBUG    destroying local
+2017-01-15 15:20:35 DEBUG    destroy: www.google.com:443
+2017-01-15 15:20:35 DEBUG    destroying remote
+2017-01-15 15:20:35 DEBUG    destroying local
+2017-01-15 15:20:35 DEBUG    accept
+2017-01-15 15:20:35 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 15:20:35 INFO     connecting www.google.com:443
+2017-01-15 15:20:35 DEBUG    hit cache: a.ssx.host
+2017-01-15 15:20:36 DEBUG    destroy: www.google.com:443
+2017-01-15 15:20:36 DEBUG    destroying remote
+2017-01-15 15:20:36 DEBUG    destroying local
+2017-01-15 15:20:36 DEBUG    accept
+2017-01-15 15:20:36 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 15:20:36 INFO     connecting www.google.com:443
+2017-01-15 15:20:36 DEBUG    hit cache: a.ssx.host
+2017-01-15 15:20:36 DEBUG    destroy: www.google.com:443
+2017-01-15 15:20:36 DEBUG    destroying remote
+2017-01-15 15:20:36 DEBUG    destroying local
+2017-01-15 15:20:39 DEBUG    accept
+2017-01-15 15:20:39 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 15:20:39 INFO     connecting www.google.com:443
+2017-01-15 15:20:39 DEBUG    hit cache: a.ssx.host
+2017-01-15 15:20:40 DEBUG    destroy: www.google.com:443
+2017-01-15 15:20:40 DEBUG    destroying remote
+2017-01-15 15:20:40 DEBUG    destroying local
+2017-01-15 15:20:41 DEBUG    accept
+2017-01-15 15:20:41 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 15:20:41 INFO     connecting www.google.com:443
+2017-01-15 15:20:41 DEBUG    hit cache: a.ssx.host
+2017-01-15 15:20:41 DEBUG    destroy: www.google.com:443
+2017-01-15 15:20:41 DEBUG    destroying remote
+2017-01-15 15:20:41 DEBUG    destroying local
+2017-01-15 15:20:42 DEBUG    accept
+2017-01-15 15:20:42 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 15:20:42 INFO     connecting www.google.com:443
+2017-01-15 15:20:42 DEBUG    hit cache: a.ssx.host
+2017-01-15 15:20:43 DEBUG    destroy: www.google.com:443
+2017-01-15 15:20:43 DEBUG    destroying remote
+2017-01-15 15:20:43 DEBUG    destroying local
+2017-01-15 15:20:44 DEBUG    accept
+2017-01-15 15:20:44 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 15:20:44 INFO     connecting www.google.com:443
+2017-01-15 15:20:44 DEBUG    hit cache: a.ssx.host
+2017-01-15 15:20:45 DEBUG    accept
+2017-01-15 15:20:45 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 15:20:45 INFO     connecting hm.baidu.com:443
+2017-01-15 15:20:45 DEBUG    hit cache: a.ssx.host
+2017-01-15 15:20:45 DEBUG    accept
+2017-01-15 15:20:45 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 15:20:45 INFO     connecting toolbar3.diigo.com:443
+2017-01-15 15:20:45 DEBUG    hit cache: a.ssx.host
+2017-01-15 15:20:46 DEBUG    accept
+2017-01-15 15:20:46 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 15:20:46 INFO     connecting id.google.com:443
+2017-01-15 15:20:46 DEBUG    hit cache: a.ssx.host
+2017-01-15 15:20:49 DEBUG    accept
+2017-01-15 15:20:49 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 15:20:49 INFO     connecting www.gstatic.com:443
+2017-01-15 15:20:49 DEBUG    hit cache: a.ssx.host
+2017-01-15 15:20:49 DEBUG    accept
+2017-01-15 15:20:49 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 15:20:49 INFO     connecting apis.google.com:443
+2017-01-15 15:20:49 DEBUG    hit cache: a.ssx.host
+2017-01-15 15:20:49 DEBUG    accept
+2017-01-15 15:20:49 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 15:20:49 INFO     connecting ogs.google.com:443
+2017-01-15 15:20:49 DEBUG    hit cache: a.ssx.host
+2017-01-15 15:20:50 DEBUG    destroy: ogs.google.com:443
+2017-01-15 15:20:50 DEBUG    destroying remote
+2017-01-15 15:20:50 DEBUG    destroying local
+2017-01-15 15:20:50 DEBUG    accept
+2017-01-15 15:20:50 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 15:20:50 INFO     connecting www.cnblogs.com:80
+2017-01-15 15:20:50 DEBUG    hit cache: a.ssx.host
+2017-01-15 15:20:50 DEBUG    destroy: hm.baidu.com:443
+2017-01-15 15:20:50 DEBUG    destroying remote
+2017-01-15 15:20:50 DEBUG    destroying local
+2017-01-15 15:20:52 DEBUG    accept
+2017-01-15 15:20:52 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 15:20:52 INFO     connecting www.cnblogs.com:80
+2017-01-15 15:20:52 DEBUG    hit cache: a.ssx.host
+2017-01-15 15:20:52 DEBUG    accept
+2017-01-15 15:20:52 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 15:20:52 INFO     connecting common.cnblogs.com:80
+2017-01-15 15:20:52 DEBUG    hit cache: a.ssx.host
+2017-01-15 15:20:52 DEBUG    accept
+2017-01-15 15:20:52 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 15:20:52 INFO     connecting www.cnblogs.com:80
+2017-01-15 15:20:52 DEBUG    hit cache: a.ssx.host
+2017-01-15 15:20:57 DEBUG    destroy: www.cnblogs.com:80
+2017-01-15 15:20:57 DEBUG    destroying remote
+2017-01-15 15:20:57 DEBUG    destroying local
+2017-01-15 15:20:57 DEBUG    destroy: common.cnblogs.com:80
+2017-01-15 15:20:57 DEBUG    destroying remote
+2017-01-15 15:20:57 DEBUG    destroying local
+2017-01-15 15:21:07 DEBUG    destroy: www.cnblogs.com:80
+2017-01-15 15:21:07 DEBUG    destroying remote
+2017-01-15 15:21:07 DEBUG    destroying local
+2017-01-15 15:21:09 DEBUG    accept
+2017-01-15 15:21:09 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 15:21:09 DEBUG    accept
+2017-01-15 15:21:09 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 15:21:09 INFO     connecting www.cnblogs.com:80
+2017-01-15 15:21:09 DEBUG    hit cache: a.ssx.host
+2017-01-15 15:21:09 INFO     connecting www.cnblogs.com:80
+2017-01-15 15:21:09 DEBUG    hit cache: a.ssx.host
+2017-01-15 15:21:09 DEBUG    accept
+2017-01-15 15:21:09 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 15:21:09 INFO     connecting www.cnblogs.com:80
+2017-01-15 15:21:09 DEBUG    hit cache: a.ssx.host
+2017-01-15 15:21:09 DEBUG    accept
+2017-01-15 15:21:09 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 15:21:09 INFO     connecting www.cnblogs.com:80
+2017-01-15 15:21:09 DEBUG    hit cache: a.ssx.host
+2017-01-15 15:21:09 DEBUG    accept
+2017-01-15 15:21:09 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 15:21:09 INFO     connecting www.cnblogs.com:80
+2017-01-15 15:21:09 DEBUG    hit cache: a.ssx.host
+2017-01-15 15:21:09 DEBUG    accept
+2017-01-15 15:21:09 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 15:21:09 INFO     connecting counter.cnblogs.com:80
+2017-01-15 15:21:09 DEBUG    hit cache: a.ssx.host
+2017-01-15 15:21:10 DEBUG    accept
+2017-01-15 15:21:10 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 15:21:10 INFO     connecting common.cnblogs.com:80
+2017-01-15 15:21:10 DEBUG    hit cache: a.ssx.host
+2017-01-15 15:21:10 DEBUG    accept
+2017-01-15 15:21:10 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 15:21:10 INFO     connecting common.cnblogs.com:80
+2017-01-15 15:21:10 DEBUG    hit cache: a.ssx.host
+2017-01-15 15:21:10 DEBUG    accept
+2017-01-15 15:21:10 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 15:21:10 INFO     connecting pic.cnblogs.com:80
+2017-01-15 15:21:10 DEBUG    hit cache: a.ssx.host
+2017-01-15 15:21:10 DEBUG    accept
+2017-01-15 15:21:10 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 15:21:10 INFO     connecting common.cnblogs.com:80
+2017-01-15 15:21:10 DEBUG    hit cache: a.ssx.host
+2017-01-15 15:21:11 DEBUG    accept
+2017-01-15 15:21:11 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 15:21:11 INFO     connecting static.cnblogs.com:80
+2017-01-15 15:21:11 DEBUG    hit cache: a.ssx.host
+2017-01-15 15:21:11 DEBUG    accept
+2017-01-15 15:21:11 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 15:21:11 INFO     connecting static.cnblogs.com:80
+2017-01-15 15:21:11 DEBUG    hit cache: a.ssx.host
+2017-01-15 15:21:27 DEBUG    destroy: counter.cnblogs.com:80
+2017-01-15 15:21:27 DEBUG    destroying remote
+2017-01-15 15:21:27 DEBUG    destroying local
+2017-01-15 15:21:27 DEBUG    destroy: www.cnblogs.com:80
+2017-01-15 15:21:27 DEBUG    destroying remote
+2017-01-15 15:21:27 DEBUG    destroying local
+2017-01-15 15:21:28 DEBUG    destroy: www.cnblogs.com:80
+2017-01-15 15:21:28 DEBUG    destroying remote
+2017-01-15 15:21:28 DEBUG    destroying local
+2017-01-15 15:21:28 DEBUG    destroy: www.cnblogs.com:80
+2017-01-15 15:21:28 DEBUG    destroying remote
+2017-01-15 15:21:28 DEBUG    destroying local
+2017-01-15 15:21:28 DEBUG    accept
+2017-01-15 15:21:28 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 15:21:28 INFO     connecting mathjax.cnblogs.com:80
+2017-01-15 15:21:28 DEBUG    hit cache: a.ssx.host
+2017-01-15 15:21:29 DEBUG    destroy: www.cnblogs.com:80
+2017-01-15 15:21:29 DEBUG    destroying remote
+2017-01-15 15:21:29 DEBUG    destroying local
+2017-01-15 15:21:43 DEBUG    destroy: www.cnblogs.com:80
+2017-01-15 15:21:43 DEBUG    destroying remote
+2017-01-15 15:21:43 DEBUG    destroying local
+2017-01-15 15:21:44 DEBUG    destroy: www.cnblogs.com:80
+2017-01-15 15:21:44 DEBUG    destroying remote
+2017-01-15 15:21:44 DEBUG    destroying local
+2017-01-15 15:22:00 DEBUG    destroy: mathjax.cnblogs.com:80
+2017-01-15 15:22:00 DEBUG    destroying remote
+2017-01-15 15:22:00 DEBUG    destroying local
+2017-01-15 15:22:13 DEBUG    destroy: toolbar3.diigo.com:443
+2017-01-15 15:22:13 DEBUG    destroying remote
+2017-01-15 15:22:13 DEBUG    destroying local
+2017-01-15 15:23:06 DEBUG    destroy: common.cnblogs.com:80
+2017-01-15 15:23:06 DEBUG    destroying remote
+2017-01-15 15:23:06 DEBUG    destroying local
+2017-01-15 15:23:06 DEBUG    destroy: common.cnblogs.com:80
+2017-01-15 15:23:06 DEBUG    destroying remote
+2017-01-15 15:23:06 DEBUG    destroying local
+2017-01-15 15:23:07 DEBUG    destroy: common.cnblogs.com:80
+2017-01-15 15:23:07 DEBUG    destroying remote
+2017-01-15 15:23:07 DEBUG    destroying local
+2017-01-15 15:23:11 DEBUG    destroy: pic.cnblogs.com:80
+2017-01-15 15:23:11 DEBUG    destroying remote
+2017-01-15 15:23:11 DEBUG    destroying local
+2017-01-15 15:23:27 DEBUG    destroy: static.cnblogs.com:80
+2017-01-15 15:23:27 DEBUG    destroying remote
+2017-01-15 15:23:27 DEBUG    destroying local
+2017-01-15 15:23:40 DEBUG    destroy: static.cnblogs.com:80
+2017-01-15 15:23:40 DEBUG    destroying remote
+2017-01-15 15:23:40 DEBUG    destroying local
+2017-01-15 15:23:43 DEBUG    destroy: id.google.com:443
+2017-01-15 15:23:43 DEBUG    destroying remote
+2017-01-15 15:23:43 DEBUG    destroying local
+2017-01-15 15:23:47 DEBUG    destroy: apis.google.com:443
+2017-01-15 15:23:47 DEBUG    destroying remote
+2017-01-15 15:23:47 DEBUG    destroying local
+2017-01-15 15:23:53 DEBUG    destroy: www.gstatic.com:443
+2017-01-15 15:23:53 DEBUG    destroying remote
+2017-01-15 15:23:53 DEBUG    destroying local
+2017-01-15 15:25:33 DEBUG    destroy: www.google.com:443
+2017-01-15 15:25:33 DEBUG    destroying remote
+2017-01-15 15:25:33 DEBUG    destroying local
+2017-01-15 15:25:50 DEBUG    2 keys swept
+2017-01-15 15:35:52 DEBUG    accept
+2017-01-15 15:35:52 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 15:35:52 INFO     connecting www.google.com:443
+2017-01-15 15:35:52 DEBUG    resolving a.ssx.host with type 1 using server 192.168.31.1
+2017-01-15 15:35:52 DEBUG    accept
+2017-01-15 15:35:52 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 15:35:52 INFO     connecting hm.baidu.com:443
+2017-01-15 15:35:52 DEBUG    resolving a.ssx.host with type 1 using server 192.168.31.1
+INFO: loading config from ./ss.json
+2017-01-15 15:42:20 INFO     starting local at 127.0.0.1:1080
+2017-01-15 15:42:20 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 15:42:41 INFO     starting local at 127.0.0.1:1080
+2017-01-15 15:42:41 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 15:43:08 INFO     starting local at 127.0.0.1:1080
+2017-01-15 15:43:08 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 18:19:57 INFO     starting local at 127.0.0.1:1080
+2017-01-15 18:19:57 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+2017-01-15 18:20:21 INFO     starting local at 127.0.0.1:1080
+2017-01-15 18:20:21 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-15 18:21:07 INFO     starting local at 127.0.0.1:1080
+2017-01-15 18:21:07 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+2017-01-15 18:53:28 DEBUG    accept
+2017-01-15 18:53:28 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:53:28 INFO     connecting resources.diigo.com:443
+2017-01-15 18:53:28 DEBUG    resolving a.ssx.host with type 1 using server 192.168.31.1
+2017-01-15 18:53:33 DEBUG    accept
+2017-01-15 18:53:33 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:53:33 INFO     connecting toolbar3.diigo.com:443
+2017-01-15 18:53:33 DEBUG    resolving a.ssx.host with type 1 using server 192.168.31.1
+2017-01-15 18:53:35 DEBUG    accept
+2017-01-15 18:53:35 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:53:35 INFO     connecting gp.symcd.com:80
+2017-01-15 18:53:35 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:53:35 DEBUG    accept
+2017-01-15 18:53:35 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:53:35 INFO     connecting gp.symcd.com:80
+2017-01-15 18:53:35 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:53:35 DEBUG    accept
+2017-01-15 18:53:35 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:53:35 INFO     connecting profile.accounts.firefox.com:443
+2017-01-15 18:53:35 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:53:36 DEBUG    accept
+2017-01-15 18:53:36 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:53:36 INFO     connecting safebrowsing.google.com:443
+2017-01-15 18:53:36 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:53:36 DEBUG    destroy: resources.diigo.com:443
+2017-01-15 18:53:36 DEBUG    destroying remote
+2017-01-15 18:53:36 DEBUG    destroying local
+2017-01-15 18:53:36 DEBUG    accept
+2017-01-15 18:53:36 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:53:36 DEBUG    accept
+2017-01-15 18:53:36 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:53:36 DEBUG    accept
+2017-01-15 18:53:36 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:53:36 DEBUG    accept
+2017-01-15 18:53:36 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:53:36 INFO     connecting toolbar3.diigo.com:443
+2017-01-15 18:53:36 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:53:36 INFO     connecting toolbar3.diigo.com:443
+2017-01-15 18:53:36 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:53:36 INFO     connecting toolbar3.diigo.com:443
+2017-01-15 18:53:36 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:53:36 INFO     connecting toolbar3.diigo.com:443
+2017-01-15 18:53:36 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:53:36 DEBUG    accept
+2017-01-15 18:53:36 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:53:36 INFO     connecting self-repair.mozilla.org:443
+2017-01-15 18:53:36 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:53:36 DEBUG    accept
+2017-01-15 18:53:36 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:53:36 INFO     connecting www.google.com:443
+2017-01-15 18:53:36 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:53:36 DEBUG    accept
+2017-01-15 18:53:36 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:53:36 INFO     connecting tiles.services.mozilla.com:443
+2017-01-15 18:53:36 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:53:36 DEBUG    accept
+2017-01-15 18:53:36 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:53:36 INFO     connecting clients1.google.com:80
+2017-01-15 18:53:36 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:53:37 DEBUG    accept
+2017-01-15 18:53:37 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:53:37 INFO     connecting ocsp.digicert.com:80
+2017-01-15 18:53:37 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:53:37 DEBUG    accept
+2017-01-15 18:53:37 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:53:37 INFO     connecting ocsp.digicert.com:80
+2017-01-15 18:53:37 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:53:37 DEBUG    accept
+2017-01-15 18:53:37 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:53:37 INFO     connecting safebrowsing-cache.google.com:443
+2017-01-15 18:53:37 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:53:37 DEBUG    accept
+2017-01-15 18:53:37 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:53:37 INFO     connecting normandy.cdn.mozilla.net:443
+2017-01-15 18:53:37 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:53:38 DEBUG    accept
+2017-01-15 18:53:38 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:53:38 INFO     connecting tiles-cloudfront.cdn.mozilla.net:443
+2017-01-15 18:53:38 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:53:41 DEBUG    accept
+2017-01-15 18:53:41 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:53:41 INFO     connecting self-repair.mozilla.org:443
+2017-01-15 18:53:41 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:53:41 DEBUG    accept
+2017-01-15 18:53:41 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:53:41 INFO     connecting api.accounts.firefox.com:443
+2017-01-15 18:53:41 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:53:41 DEBUG    got remote error
+2017-01-15 18:53:41 ERROR    [Errno 104] Connection reset by peer
+2017-01-15 18:53:41 DEBUG    destroy: toolbar3.diigo.com:443
+2017-01-15 18:53:41 DEBUG    destroying remote
+2017-01-15 18:53:41 DEBUG    destroying local
+2017-01-15 18:53:42 DEBUG    accept
+2017-01-15 18:53:42 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:53:42 INFO     connecting token.services.mozilla.com:443
+2017-01-15 18:53:42 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:53:43 DEBUG    destroy: tiles-cloudfront.cdn.mozilla.net:443
+2017-01-15 18:53:43 DEBUG    destroying remote
+2017-01-15 18:53:43 DEBUG    destroying local
+2017-01-15 18:53:43 DEBUG    destroy: normandy.cdn.mozilla.net:443
+2017-01-15 18:53:43 DEBUG    destroying remote
+2017-01-15 18:53:43 DEBUG    destroying local
+2017-01-15 18:53:43 DEBUG    accept
+2017-01-15 18:53:43 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:53:43 INFO     connecting sync-329-us-west-2.sync.services.mozilla.com:443
+2017-01-15 18:53:43 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:53:53 DEBUG    destroy: token.services.mozilla.com:443
+2017-01-15 18:53:53 DEBUG    destroying remote
+2017-01-15 18:53:53 DEBUG    destroying local
+2017-01-15 18:53:58 DEBUG    destroy: ocsp.digicert.com:80
+2017-01-15 18:53:58 DEBUG    destroying remote
+2017-01-15 18:53:58 DEBUG    destroying local
+2017-01-15 18:54:00 DEBUG    destroy: gp.symcd.com:80
+2017-01-15 18:54:00 DEBUG    destroying remote
+2017-01-15 18:54:00 DEBUG    destroying local
+2017-01-15 18:54:03 DEBUG    destroy: ocsp.digicert.com:80
+2017-01-15 18:54:03 DEBUG    destroying remote
+2017-01-15 18:54:03 DEBUG    destroying local
+2017-01-15 18:54:12 DEBUG    accept
+2017-01-15 18:54:12 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:54:12 INFO     connecting shavar.services.mozilla.com:443
+2017-01-15 18:54:12 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:54:13 DEBUG    accept
+2017-01-15 18:54:13 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:54:13 INFO     connecting ocsp.digicert.com:80
+2017-01-15 18:54:13 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:54:29 DEBUG    destroy: ocsp.digicert.com:80
+2017-01-15 18:54:29 DEBUG    destroying remote
+2017-01-15 18:54:29 DEBUG    destroying local
+2017-01-15 18:54:38 DEBUG    destroy: self-repair.mozilla.org:443
+2017-01-15 18:54:38 DEBUG    destroying remote
+2017-01-15 18:54:38 DEBUG    destroying local
+2017-01-15 18:54:38 DEBUG    destroy: tiles.services.mozilla.com:443
+2017-01-15 18:54:38 DEBUG    destroying remote
+2017-01-15 18:54:38 DEBUG    destroying local
+2017-01-15 18:54:41 DEBUG    destroy: toolbar3.diigo.com:443
+2017-01-15 18:54:41 DEBUG    destroying remote
+2017-01-15 18:54:41 DEBUG    destroying local
+2017-01-15 18:54:43 DEBUG    destroy: api.accounts.firefox.com:443
+2017-01-15 18:54:43 DEBUG    destroying remote
+2017-01-15 18:54:43 DEBUG    destroying local
+2017-01-15 18:54:43 DEBUG    destroy: self-repair.mozilla.org:443
+2017-01-15 18:54:43 DEBUG    destroying remote
+2017-01-15 18:54:43 DEBUG    destroying local
+2017-01-15 18:54:45 DEBUG    destroy: gp.symcd.com:80
+2017-01-15 18:54:45 DEBUG    destroying remote
+2017-01-15 18:54:45 DEBUG    destroying local
+2017-01-15 18:54:52 DEBUG    destroy: profile.accounts.firefox.com:443
+2017-01-15 18:54:52 DEBUG    destroying remote
+2017-01-15 18:54:52 DEBUG    destroying local
+2017-01-15 18:54:53 DEBUG    destroy: toolbar3.diigo.com:443
+2017-01-15 18:54:53 DEBUG    destroying remote
+2017-01-15 18:54:53 DEBUG    destroying local
+2017-01-15 18:54:53 DEBUG    destroy: toolbar3.diigo.com:443
+2017-01-15 18:54:53 DEBUG    destroying remote
+2017-01-15 18:54:53 DEBUG    destroying local
+2017-01-15 18:54:55 DEBUG    destroy: sync-329-us-west-2.sync.services.mozilla.com:443
+2017-01-15 18:54:55 DEBUG    destroying remote
+2017-01-15 18:54:55 DEBUG    destroying local
+2017-01-15 18:54:55 DEBUG    destroy: toolbar3.diigo.com:443
+2017-01-15 18:54:55 DEBUG    destroying remote
+2017-01-15 18:54:55 DEBUG    destroying local
+2017-01-15 18:55:06 DEBUG    accept
+2017-01-15 18:55:06 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:55:06 INFO     connecting localhost:80
+2017-01-15 18:55:06 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:55:14 DEBUG    destroy: shavar.services.mozilla.com:443
+2017-01-15 18:55:14 DEBUG    destroying remote
+2017-01-15 18:55:14 DEBUG    destroying local
+2017-01-15 18:55:16 DEBUG    destroy: localhost:80
+2017-01-15 18:55:16 DEBUG    destroying remote
+2017-01-15 18:55:16 DEBUG    destroying local
+2017-01-15 18:55:16 DEBUG    accept
+2017-01-15 18:55:16 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:55:16 INFO     connecting localhost:8080
+2017-01-15 18:55:16 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:55:16 DEBUG    destroy: localhost:8080
+2017-01-15 18:55:16 DEBUG    destroying remote
+2017-01-15 18:55:16 DEBUG    destroying local
+2017-01-15 18:55:16 DEBUG    accept
+2017-01-15 18:55:16 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:55:16 INFO     connecting www.localhost.com:8080
+2017-01-15 18:55:16 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:55:17 DEBUG    destroy: www.localhost.com:8080
+2017-01-15 18:55:17 DEBUG    destroying remote
+2017-01-15 18:55:17 DEBUG    destroying local
+2017-01-15 18:55:32 DEBUG    accept
+2017-01-15 18:55:32 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:55:32 INFO     connecting www.localhost.com:8080
+2017-01-15 18:55:32 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:55:32 DEBUG    destroy: www.localhost.com:8080
+2017-01-15 18:55:32 DEBUG    destroying remote
+2017-01-15 18:55:32 DEBUG    destroying local
+2017-01-15 18:55:40 DEBUG    destroy: clients1.google.com:80
+2017-01-15 18:55:40 DEBUG    destroying remote
+2017-01-15 18:55:40 DEBUG    destroying local
+2017-01-15 18:56:00 DEBUG    accept
+2017-01-15 18:56:00 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:56:00 INFO     connecting www.localhost.com:8080
+2017-01-15 18:56:00 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:56:00 DEBUG    destroy: www.localhost.com:8080
+2017-01-15 18:56:00 DEBUG    destroying remote
+2017-01-15 18:56:00 DEBUG    destroying local
+2017-01-15 18:56:02 DEBUG    accept
+2017-01-15 18:56:02 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:56:02 INFO     connecting www.localhost.com:8080
+2017-01-15 18:56:02 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:56:10 DEBUG    destroy: www.localhost.com:8080
+2017-01-15 18:56:10 DEBUG    destroying remote
+2017-01-15 18:56:10 DEBUG    destroying local
+2017-01-15 18:56:10 DEBUG    accept
+2017-01-15 18:56:10 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:56:10 INFO     connecting www.localhost.com:8080
+2017-01-15 18:56:10 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:56:10 DEBUG    destroy: www.localhost.com:8080
+2017-01-15 18:56:10 DEBUG    destroying remote
+2017-01-15 18:56:10 DEBUG    destroying local
+2017-01-15 18:56:11 DEBUG    accept
+2017-01-15 18:56:11 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:56:11 INFO     connecting www.localhost.com:8080
+2017-01-15 18:56:11 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:56:16 DEBUG    accept
+2017-01-15 18:56:16 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:56:16 INFO     connecting sgs.3w.dkys.org:80
+2017-01-15 18:56:16 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:56:18 DEBUG    destroy: sgs.3w.dkys.org:80
+2017-01-15 18:56:18 DEBUG    destroying remote
+2017-01-15 18:56:18 DEBUG    destroying local
+2017-01-15 18:56:18 DEBUG    accept
+2017-01-15 18:56:18 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:56:18 INFO     connecting sgs.3w.dkys.org:80
+2017-01-15 18:56:18 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:56:20 DEBUG    destroy: sgs.3w.dkys.org:80
+2017-01-15 18:56:20 DEBUG    destroying remote
+2017-01-15 18:56:20 DEBUG    destroying local
+2017-01-15 18:56:24 DEBUG    accept
+2017-01-15 18:56:24 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:56:24 INFO     connecting localhost:8080
+2017-01-15 18:56:24 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:56:28 DEBUG    destroy: localhost:8080
+2017-01-15 18:56:28 DEBUG    destroying remote
+2017-01-15 18:56:28 DEBUG    destroying local
+2017-01-15 18:56:28 DEBUG    accept
+2017-01-15 18:56:28 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:56:28 INFO     connecting localhost:8080
+2017-01-15 18:56:28 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:56:28 DEBUG    destroy: www.localhost.com:8080
+2017-01-15 18:56:28 DEBUG    destroying remote
+2017-01-15 18:56:28 DEBUG    destroying local
+2017-01-15 18:56:31 DEBUG    destroy: localhost:8080
+2017-01-15 18:56:31 DEBUG    destroying remote
+2017-01-15 18:56:31 DEBUG    destroying local
+2017-01-15 18:56:31 DEBUG    accept
+2017-01-15 18:56:31 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:56:31 INFO     connecting www.localhost.com:8080
+2017-01-15 18:56:31 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:56:32 DEBUG    destroy: www.localhost.com:8080
+2017-01-15 18:56:32 DEBUG    destroying remote
+2017-01-15 18:56:32 DEBUG    destroying local
+2017-01-15 18:56:33 DEBUG    destroy: safebrowsing.google.com:443
+2017-01-15 18:56:33 DEBUG    destroying remote
+2017-01-15 18:56:33 DEBUG    destroying local
+2017-01-15 18:57:03 DEBUG    accept
+2017-01-15 18:57:03 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:57:03 INFO     connecting sgs.3w.dkys.org:80
+2017-01-15 18:57:03 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:57:04 DEBUG    destroy: sgs.3w.dkys.org:80
+2017-01-15 18:57:04 DEBUG    destroying remote
+2017-01-15 18:57:04 DEBUG    destroying local
+2017-01-15 18:57:05 DEBUG    accept
+2017-01-15 18:57:05 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:57:05 INFO     connecting localhost:8080
+2017-01-15 18:57:05 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:57:05 DEBUG    destroy: localhost:8080
+2017-01-15 18:57:05 DEBUG    destroying remote
+2017-01-15 18:57:05 DEBUG    destroying local
+2017-01-15 18:57:05 DEBUG    accept
+2017-01-15 18:57:05 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:57:05 INFO     connecting www.localhost.com:8080
+2017-01-15 18:57:05 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:57:06 DEBUG    destroy: www.localhost.com:8080
+2017-01-15 18:57:06 DEBUG    destroying remote
+2017-01-15 18:57:06 DEBUG    destroying local
+2017-01-15 18:57:06 DEBUG    accept
+2017-01-15 18:57:06 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:57:06 INFO     connecting www.localhost.com:8080
+2017-01-15 18:57:06 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:57:07 DEBUG    destroy: www.localhost.com:8080
+2017-01-15 18:57:07 DEBUG    destroying remote
+2017-01-15 18:57:07 DEBUG    destroying local
+2017-01-15 18:57:08 DEBUG    destroy: safebrowsing-cache.google.com:443
+2017-01-15 18:57:08 DEBUG    destroying remote
+2017-01-15 18:57:08 DEBUG    destroying local
+2017-01-15 18:57:24 DEBUG    accept
+2017-01-15 18:57:24 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:57:24 INFO     connecting localhost:8080
+2017-01-15 18:57:24 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:57:25 DEBUG    destroy: localhost:8080
+2017-01-15 18:57:25 DEBUG    destroying remote
+2017-01-15 18:57:25 DEBUG    destroying local
+2017-01-15 18:57:25 DEBUG    accept
+2017-01-15 18:57:25 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:57:25 INFO     connecting www.localhost.com:8080
+2017-01-15 18:57:25 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:57:25 DEBUG    destroy: www.localhost.com:8080
+2017-01-15 18:57:25 DEBUG    destroying remote
+2017-01-15 18:57:25 DEBUG    destroying local
+2017-01-15 18:57:34 DEBUG    accept
+2017-01-15 18:57:34 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:57:34 INFO     connecting www.localhost.com:8080
+2017-01-15 18:57:34 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:57:34 DEBUG    destroy: www.localhost.com:8080
+2017-01-15 18:57:34 DEBUG    destroying remote
+2017-01-15 18:57:34 DEBUG    destroying local
+2017-01-15 18:57:35 DEBUG    accept
+2017-01-15 18:57:35 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:57:35 INFO     connecting www.localhost.com:8080
+2017-01-15 18:57:35 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:57:35 DEBUG    destroy: www.localhost.com:8080
+2017-01-15 18:57:35 DEBUG    destroying remote
+2017-01-15 18:57:35 DEBUG    destroying local
+2017-01-15 18:57:35 DEBUG    accept
+2017-01-15 18:57:35 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:57:35 INFO     connecting www.localhost.com:8080
+2017-01-15 18:57:35 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:57:35 DEBUG    destroy: www.localhost.com:8080
+2017-01-15 18:57:35 DEBUG    destroying remote
+2017-01-15 18:57:35 DEBUG    destroying local
+2017-01-15 18:57:35 DEBUG    accept
+2017-01-15 18:57:35 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:57:35 INFO     connecting www.localhost.com:8080
+2017-01-15 18:57:35 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:57:35 DEBUG    destroy: www.localhost.com:8080
+2017-01-15 18:57:35 DEBUG    destroying remote
+2017-01-15 18:57:35 DEBUG    destroying local
+2017-01-15 18:57:35 DEBUG    accept
+2017-01-15 18:57:35 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:57:35 INFO     connecting www.localhost.com:8080
+2017-01-15 18:57:35 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:57:36 DEBUG    destroy: www.localhost.com:8080
+2017-01-15 18:57:36 DEBUG    destroying remote
+2017-01-15 18:57:36 DEBUG    destroying local
+2017-01-15 18:57:36 DEBUG    accept
+2017-01-15 18:57:36 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:57:36 INFO     connecting www.localhost.com:8080
+2017-01-15 18:57:36 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:57:36 DEBUG    destroy: www.localhost.com:8080
+2017-01-15 18:57:36 DEBUG    destroying remote
+2017-01-15 18:57:36 DEBUG    destroying local
+2017-01-15 18:57:36 DEBUG    accept
+2017-01-15 18:57:36 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:57:36 INFO     connecting www.localhost.com:8080
+2017-01-15 18:57:36 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:57:36 DEBUG    destroy: www.localhost.com:8080
+2017-01-15 18:57:36 DEBUG    destroying remote
+2017-01-15 18:57:36 DEBUG    destroying local
+2017-01-15 18:57:51 DEBUG    accept
+2017-01-15 18:57:51 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:57:51 INFO     connecting 192.168.31.19:8080
+2017-01-15 18:57:51 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:58:16 DEBUG    accept
+2017-01-15 18:58:16 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:58:16 INFO     connecting sgs.3w.dkys.org:80
+2017-01-15 18:58:16 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:58:17 DEBUG    destroy: sgs.3w.dkys.org:80
+2017-01-15 18:58:17 DEBUG    destroying remote
+2017-01-15 18:58:17 DEBUG    destroying local
+2017-01-15 18:58:20 DEBUG    accept
+2017-01-15 18:58:20 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:58:20 INFO     connecting localhost:8080
+2017-01-15 18:58:20 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:58:28 DEBUG    destroy: localhost:8080
+2017-01-15 18:58:28 DEBUG    destroying remote
+2017-01-15 18:58:28 DEBUG    destroying local
+2017-01-15 18:58:28 DEBUG    accept
+2017-01-15 18:58:28 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:58:28 INFO     connecting localhost:8080
+2017-01-15 18:58:28 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:58:28 DEBUG    destroy: localhost:8080
+2017-01-15 18:58:28 DEBUG    destroying remote
+2017-01-15 18:58:28 DEBUG    destroying local
+2017-01-15 18:58:28 DEBUG    accept
+2017-01-15 18:58:28 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:58:28 INFO     connecting www.localhost.com:8080
+2017-01-15 18:58:28 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:58:32 DEBUG    destroy: www.localhost.com:8080
+2017-01-15 18:58:32 DEBUG    destroying remote
+2017-01-15 18:58:32 DEBUG    destroying local
+2017-01-15 18:58:32 DEBUG    accept
+2017-01-15 18:58:32 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:58:32 INFO     connecting www.localhost.com:8080
+2017-01-15 18:58:32 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:58:33 DEBUG    destroy: www.localhost.com:8080
+2017-01-15 18:58:33 DEBUG    destroying remote
+2017-01-15 18:58:33 DEBUG    destroying local
+2017-01-15 18:58:33 DEBUG    accept
+2017-01-15 18:58:33 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:58:33 INFO     connecting toolbar3.diigo.com:443
+2017-01-15 18:58:33 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:58:50 DEBUG    accept
+2017-01-15 18:58:50 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:58:50 INFO     connecting localhost:8080
+2017-01-15 18:58:50 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:58:54 DEBUG    destroy: localhost:8080
+2017-01-15 18:58:54 DEBUG    destroying remote
+2017-01-15 18:58:54 DEBUG    destroying local
+2017-01-15 18:58:54 DEBUG    accept
+2017-01-15 18:58:54 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 18:58:54 INFO     connecting localhost:8080
+2017-01-15 18:58:54 DEBUG    hit cache: a.ssx.host
+2017-01-15 18:58:54 DEBUG    destroy: localhost:8080
+2017-01-15 18:58:54 DEBUG    destroying remote
+2017-01-15 18:58:54 DEBUG    destroying local
+2017-01-15 18:58:58 DEBUG    2 keys swept
+2017-01-15 18:59:05 DEBUG    destroy: 192.168.31.19:8080
+2017-01-15 18:59:05 DEBUG    destroying remote
+2017-01-15 18:59:05 DEBUG    destroying local
+2017-01-15 18:59:52 DEBUG    destroy: toolbar3.diigo.com:443
+2017-01-15 18:59:52 DEBUG    destroying remote
+2017-01-15 18:59:52 DEBUG    destroying local
+2017-01-15 19:01:44 DEBUG    destroy: www.google.com:443
+2017-01-15 19:01:44 DEBUG    destroying remote
+2017-01-15 19:01:44 DEBUG    destroying local
+2017-01-15 20:57:19 DEBUG    accept
+2017-01-15 20:57:19 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:19 INFO     connecting 192.168.31.1:80
+2017-01-15 20:57:19 DEBUG    resolving a.ssx.host with type 1 using server 192.168.31.1
+2017-01-15 20:57:20 DEBUG    accept
+2017-01-15 20:57:20 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:20 INFO     connecting www.google.com:443
+2017-01-15 20:57:20 DEBUG    resolving a.ssx.host with type 1 using server 192.168.31.1
+2017-01-15 20:57:20 DEBUG    destroy: 192.168.31.1:80
+2017-01-15 20:57:20 DEBUG    destroying remote
+2017-01-15 20:57:20 DEBUG    destroying local
+2017-01-15 20:57:21 DEBUG    destroy: www.google.com:443
+2017-01-15 20:57:21 DEBUG    destroying remote
+2017-01-15 20:57:21 DEBUG    destroying local
+2017-01-15 20:57:21 DEBUG    accept
+2017-01-15 20:57:21 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:21 INFO     connecting www.google.com:443
+2017-01-15 20:57:21 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:21 DEBUG    destroy: www.google.com:443
+2017-01-15 20:57:21 DEBUG    destroying remote
+2017-01-15 20:57:21 DEBUG    destroying local
+2017-01-15 20:57:21 DEBUG    accept
+2017-01-15 20:57:21 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:21 INFO     connecting www.google.com:443
+2017-01-15 20:57:21 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:21 DEBUG    destroy: www.google.com:443
+2017-01-15 20:57:21 DEBUG    destroying remote
+2017-01-15 20:57:21 DEBUG    destroying local
+2017-01-15 20:57:21 DEBUG    accept
+2017-01-15 20:57:21 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:21 INFO     connecting www.google.com:443
+2017-01-15 20:57:21 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:21 DEBUG    destroy: www.google.com:443
+2017-01-15 20:57:21 DEBUG    destroying remote
+2017-01-15 20:57:21 DEBUG    destroying local
+2017-01-15 20:57:21 DEBUG    accept
+2017-01-15 20:57:21 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:21 INFO     connecting www.google.com:443
+2017-01-15 20:57:21 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:21 DEBUG    destroy: www.google.com:443
+2017-01-15 20:57:21 DEBUG    destroying remote
+2017-01-15 20:57:21 DEBUG    destroying local
+2017-01-15 20:57:22 DEBUG    accept
+2017-01-15 20:57:22 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:22 INFO     connecting www.google.com:443
+2017-01-15 20:57:22 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:22 DEBUG    destroy: www.google.com:443
+2017-01-15 20:57:22 DEBUG    destroying remote
+2017-01-15 20:57:22 DEBUG    destroying local
+2017-01-15 20:57:22 DEBUG    accept
+2017-01-15 20:57:22 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:22 INFO     connecting www.google.com:443
+2017-01-15 20:57:22 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:22 DEBUG    destroy: www.google.com:443
+2017-01-15 20:57:22 DEBUG    destroying remote
+2017-01-15 20:57:22 DEBUG    destroying local
+2017-01-15 20:57:22 DEBUG    accept
+2017-01-15 20:57:22 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:22 INFO     connecting www.google.com:443
+2017-01-15 20:57:22 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:22 DEBUG    destroy: www.google.com:443
+2017-01-15 20:57:22 DEBUG    destroying remote
+2017-01-15 20:57:22 DEBUG    destroying local
+2017-01-15 20:57:22 DEBUG    accept
+2017-01-15 20:57:22 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:22 INFO     connecting www.google.com:443
+2017-01-15 20:57:22 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:22 DEBUG    destroy: www.google.com:443
+2017-01-15 20:57:22 DEBUG    destroying remote
+2017-01-15 20:57:22 DEBUG    destroying local
+2017-01-15 20:57:22 DEBUG    accept
+2017-01-15 20:57:22 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:22 INFO     connecting www.google.com:443
+2017-01-15 20:57:22 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:23 DEBUG    destroy: www.google.com:443
+2017-01-15 20:57:23 DEBUG    destroying remote
+2017-01-15 20:57:23 DEBUG    destroying local
+2017-01-15 20:57:23 DEBUG    accept
+2017-01-15 20:57:23 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:23 INFO     connecting www.google.com:443
+2017-01-15 20:57:23 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:23 DEBUG    destroy: www.google.com:443
+2017-01-15 20:57:23 DEBUG    destroying remote
+2017-01-15 20:57:23 DEBUG    destroying local
+2017-01-15 20:57:23 DEBUG    accept
+2017-01-15 20:57:23 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:23 INFO     connecting www.google.com:443
+2017-01-15 20:57:23 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:23 DEBUG    destroy: www.google.com:443
+2017-01-15 20:57:23 DEBUG    destroying remote
+2017-01-15 20:57:23 DEBUG    destroying local
+2017-01-15 20:57:24 DEBUG    accept
+2017-01-15 20:57:24 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:24 INFO     connecting www.google.com:443
+2017-01-15 20:57:24 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:24 DEBUG    destroy: www.google.com:443
+2017-01-15 20:57:24 DEBUG    destroying remote
+2017-01-15 20:57:24 DEBUG    destroying local
+2017-01-15 20:57:24 DEBUG    accept
+2017-01-15 20:57:24 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:24 INFO     connecting www.google.com:443
+2017-01-15 20:57:24 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:24 DEBUG    destroy: www.google.com:443
+2017-01-15 20:57:24 DEBUG    destroying remote
+2017-01-15 20:57:24 DEBUG    destroying local
+2017-01-15 20:57:24 DEBUG    accept
+2017-01-15 20:57:24 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:24 INFO     connecting www.google.com:443
+2017-01-15 20:57:24 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:24 DEBUG    destroy: www.google.com:443
+2017-01-15 20:57:24 DEBUG    destroying remote
+2017-01-15 20:57:24 DEBUG    destroying local
+2017-01-15 20:57:24 DEBUG    accept
+2017-01-15 20:57:24 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:24 INFO     connecting www.google.com:443
+2017-01-15 20:57:24 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:24 DEBUG    destroy: www.google.com:443
+2017-01-15 20:57:24 DEBUG    destroying remote
+2017-01-15 20:57:24 DEBUG    destroying local
+2017-01-15 20:57:24 DEBUG    accept
+2017-01-15 20:57:24 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:24 INFO     connecting www.google.com:443
+2017-01-15 20:57:24 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:25 DEBUG    destroy: www.google.com:443
+2017-01-15 20:57:25 DEBUG    destroying remote
+2017-01-15 20:57:25 DEBUG    destroying local
+2017-01-15 20:57:25 DEBUG    accept
+2017-01-15 20:57:25 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:25 INFO     connecting www.google.com:443
+2017-01-15 20:57:25 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:25 DEBUG    destroy: www.google.com:443
+2017-01-15 20:57:25 DEBUG    destroying remote
+2017-01-15 20:57:25 DEBUG    destroying local
+2017-01-15 20:57:25 DEBUG    accept
+2017-01-15 20:57:25 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:25 INFO     connecting www.google.com:443
+2017-01-15 20:57:25 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:25 DEBUG    destroy: www.google.com:443
+2017-01-15 20:57:25 DEBUG    destroying remote
+2017-01-15 20:57:25 DEBUG    destroying local
+2017-01-15 20:57:25 DEBUG    accept
+2017-01-15 20:57:25 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:25 INFO     connecting www.google.com:443
+2017-01-15 20:57:25 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:25 DEBUG    destroy: www.google.com:443
+2017-01-15 20:57:25 DEBUG    destroying remote
+2017-01-15 20:57:25 DEBUG    destroying local
+2017-01-15 20:57:25 DEBUG    accept
+2017-01-15 20:57:25 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:25 INFO     connecting www.google.com:443
+2017-01-15 20:57:25 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:26 DEBUG    destroy: www.google.com:443
+2017-01-15 20:57:26 DEBUG    destroying remote
+2017-01-15 20:57:26 DEBUG    destroying local
+2017-01-15 20:57:26 DEBUG    accept
+2017-01-15 20:57:26 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:26 INFO     connecting www.google.com:443
+2017-01-15 20:57:26 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:26 DEBUG    destroy: www.google.com:443
+2017-01-15 20:57:26 DEBUG    destroying remote
+2017-01-15 20:57:26 DEBUG    destroying local
+2017-01-15 20:57:26 DEBUG    accept
+2017-01-15 20:57:26 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:26 INFO     connecting www.google.com:443
+2017-01-15 20:57:26 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:26 DEBUG    destroy: www.google.com:443
+2017-01-15 20:57:26 DEBUG    destroying remote
+2017-01-15 20:57:26 DEBUG    destroying local
+2017-01-15 20:57:26 DEBUG    accept
+2017-01-15 20:57:26 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:26 INFO     connecting www.google.com:443
+2017-01-15 20:57:26 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:28 DEBUG    destroy: www.google.com:443
+2017-01-15 20:57:28 DEBUG    destroying remote
+2017-01-15 20:57:28 DEBUG    destroying local
+2017-01-15 20:57:28 DEBUG    accept
+2017-01-15 20:57:28 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:28 INFO     connecting www.google.com:443
+2017-01-15 20:57:28 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:28 DEBUG    destroy: www.google.com:443
+2017-01-15 20:57:28 DEBUG    destroying remote
+2017-01-15 20:57:28 DEBUG    destroying local
+2017-01-15 20:57:28 DEBUG    accept
+2017-01-15 20:57:28 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:28 INFO     connecting www.google.com:443
+2017-01-15 20:57:28 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:28 DEBUG    destroy: www.google.com:443
+2017-01-15 20:57:28 DEBUG    destroying remote
+2017-01-15 20:57:28 DEBUG    destroying local
+2017-01-15 20:57:28 DEBUG    accept
+2017-01-15 20:57:28 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:28 INFO     connecting www.google.com:443
+2017-01-15 20:57:28 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:28 DEBUG    destroy: www.google.com:443
+2017-01-15 20:57:28 DEBUG    destroying remote
+2017-01-15 20:57:28 DEBUG    destroying local
+2017-01-15 20:57:28 DEBUG    accept
+2017-01-15 20:57:28 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:28 INFO     connecting www.google.com:443
+2017-01-15 20:57:28 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:28 DEBUG    destroy: www.google.com:443
+2017-01-15 20:57:28 DEBUG    destroying remote
+2017-01-15 20:57:28 DEBUG    destroying local
+2017-01-15 20:57:29 DEBUG    accept
+2017-01-15 20:57:29 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:29 INFO     connecting www.google.com:443
+2017-01-15 20:57:29 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:29 DEBUG    destroy: www.google.com:443
+2017-01-15 20:57:29 DEBUG    destroying remote
+2017-01-15 20:57:29 DEBUG    destroying local
+2017-01-15 20:57:29 DEBUG    accept
+2017-01-15 20:57:29 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:29 INFO     connecting www.google.com:443
+2017-01-15 20:57:29 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:29 DEBUG    destroy: www.google.com:443
+2017-01-15 20:57:29 DEBUG    destroying remote
+2017-01-15 20:57:29 DEBUG    destroying local
+2017-01-15 20:57:29 DEBUG    accept
+2017-01-15 20:57:29 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:29 INFO     connecting www.google.com:443
+2017-01-15 20:57:29 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:29 DEBUG    destroy: www.google.com:443
+2017-01-15 20:57:29 DEBUG    destroying remote
+2017-01-15 20:57:29 DEBUG    destroying local
+2017-01-15 20:57:29 DEBUG    accept
+2017-01-15 20:57:29 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:29 INFO     connecting www.google.com:443
+2017-01-15 20:57:29 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:29 DEBUG    destroy: www.google.com:443
+2017-01-15 20:57:29 DEBUG    destroying remote
+2017-01-15 20:57:29 DEBUG    destroying local
+2017-01-15 20:57:29 DEBUG    accept
+2017-01-15 20:57:29 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:29 INFO     connecting www.google.com:443
+2017-01-15 20:57:29 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:29 DEBUG    destroy: www.google.com:443
+2017-01-15 20:57:29 DEBUG    destroying remote
+2017-01-15 20:57:29 DEBUG    destroying local
+2017-01-15 20:57:29 DEBUG    accept
+2017-01-15 20:57:29 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:29 INFO     connecting www.google.com:443
+2017-01-15 20:57:29 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:29 DEBUG    destroy: www.google.com:443
+2017-01-15 20:57:29 DEBUG    destroying remote
+2017-01-15 20:57:29 DEBUG    destroying local
+2017-01-15 20:57:30 DEBUG    accept
+2017-01-15 20:57:30 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:30 INFO     connecting www.google.com:443
+2017-01-15 20:57:30 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:30 DEBUG    destroy: www.google.com:443
+2017-01-15 20:57:30 DEBUG    destroying remote
+2017-01-15 20:57:30 DEBUG    destroying local
+2017-01-15 20:57:30 DEBUG    accept
+2017-01-15 20:57:30 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:30 INFO     connecting www.google.com:443
+2017-01-15 20:57:30 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:30 DEBUG    destroy: www.google.com:443
+2017-01-15 20:57:30 DEBUG    destroying remote
+2017-01-15 20:57:30 DEBUG    destroying local
+2017-01-15 20:57:30 DEBUG    accept
+2017-01-15 20:57:30 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:30 INFO     connecting www.google.com:443
+2017-01-15 20:57:30 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:30 DEBUG    destroy: www.google.com:443
+2017-01-15 20:57:30 DEBUG    destroying remote
+2017-01-15 20:57:30 DEBUG    destroying local
+2017-01-15 20:57:30 DEBUG    accept
+2017-01-15 20:57:30 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:30 INFO     connecting www.google.com:443
+2017-01-15 20:57:30 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:31 DEBUG    destroy: www.google.com:443
+2017-01-15 20:57:31 DEBUG    destroying remote
+2017-01-15 20:57:31 DEBUG    destroying local
+2017-01-15 20:57:31 DEBUG    accept
+2017-01-15 20:57:31 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:31 INFO     connecting www.google.com:443
+2017-01-15 20:57:31 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:31 DEBUG    destroy: www.google.com:443
+2017-01-15 20:57:31 DEBUG    destroying remote
+2017-01-15 20:57:31 DEBUG    destroying local
+2017-01-15 20:57:31 DEBUG    accept
+2017-01-15 20:57:31 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:31 INFO     connecting www.google.com:443
+2017-01-15 20:57:31 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:31 DEBUG    destroy: www.google.com:443
+2017-01-15 20:57:31 DEBUG    destroying remote
+2017-01-15 20:57:31 DEBUG    destroying local
+2017-01-15 20:57:31 DEBUG    accept
+2017-01-15 20:57:31 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:31 INFO     connecting www.google.com:443
+2017-01-15 20:57:31 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:32 DEBUG    accept
+2017-01-15 20:57:32 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:32 INFO     connecting clients1.google.com:80
+2017-01-15 20:57:32 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:34 DEBUG    destroy: clients1.google.com:80
+2017-01-15 20:57:34 DEBUG    destroying remote
+2017-01-15 20:57:34 DEBUG    destroying local
+2017-01-15 20:57:34 DEBUG    accept
+2017-01-15 20:57:34 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:34 INFO     connecting ipv4.google.com:443
+2017-01-15 20:57:34 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:38 DEBUG    destroy: ipv4.google.com:443
+2017-01-15 20:57:38 DEBUG    destroying remote
+2017-01-15 20:57:38 DEBUG    destroying local
+2017-01-15 20:57:38 DEBUG    accept
+2017-01-15 20:57:38 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:38 INFO     connecting ipv4.google.com:443
+2017-01-15 20:57:38 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:41 DEBUG    accept
+2017-01-15 20:57:41 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:41 INFO     connecting clients1.google.com:80
+2017-01-15 20:57:41 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:43 DEBUG    destroy: clients1.google.com:80
+2017-01-15 20:57:43 DEBUG    destroying remote
+2017-01-15 20:57:43 DEBUG    destroying local
+2017-01-15 20:57:44 DEBUG    accept
+2017-01-15 20:57:44 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:44 INFO     connecting www.gstatic.com:443
+2017-01-15 20:57:44 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:46 DEBUG    accept
+2017-01-15 20:57:46 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:46 INFO     connecting www.google.com:443
+2017-01-15 20:57:46 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:47 DEBUG    accept
+2017-01-15 20:57:47 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:47 INFO     connecting clients1.google.com:80
+2017-01-15 20:57:47 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:48 DEBUG    got local error
+2017-01-15 20:57:48 ERROR    [Errno 104] Connection reset by peer
+2017-01-15 20:57:48 DEBUG    destroy: www.gstatic.com:443
+2017-01-15 20:57:48 DEBUG    destroying remote
+2017-01-15 20:57:48 DEBUG    destroying local
+2017-01-15 20:57:48 DEBUG    accept
+2017-01-15 20:57:48 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:48 INFO     connecting www.gstatic.com:443
+2017-01-15 20:57:48 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:49 DEBUG    accept
+2017-01-15 20:57:49 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:49 INFO     connecting ssl.gstatic.com:443
+2017-01-15 20:57:49 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:51 DEBUG    accept
+2017-01-15 20:57:51 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:51 INFO     connecting www.gstatic.com:443
+2017-01-15 20:57:51 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:57:54 DEBUG    accept
+2017-01-15 20:57:54 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:57:54 INFO     connecting apis.google.com:443
+2017-01-15 20:57:54 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:58:01 DEBUG    accept
+2017-01-15 20:58:01 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:58:01 INFO     connecting bing.com:80
+2017-01-15 20:58:01 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:58:01 DEBUG    accept
+2017-01-15 20:58:01 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:58:01 INFO     connecting cn.bing.com:80
+2017-01-15 20:58:01 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:58:01 DEBUG    accept
+2017-01-15 20:58:01 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:58:01 INFO     connecting www.bing.com:80
+2017-01-15 20:58:01 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:58:02 DEBUG    accept
+2017-01-15 20:58:02 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:58:02 INFO     connecting sgs.3w.dkys.org:80
+2017-01-15 20:58:02 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:58:03 DEBUG    accept
+2017-01-15 20:58:03 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:58:03 INFO     connecting www.bing.com:80
+2017-01-15 20:58:03 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:58:03 DEBUG    accept
+2017-01-15 20:58:03 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:58:03 INFO     connecting www.bing.com:80
+2017-01-15 20:58:03 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:58:03 DEBUG    accept
+2017-01-15 20:58:03 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:58:03 INFO     connecting www.bing.com:80
+2017-01-15 20:58:03 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:58:03 DEBUG    accept
+2017-01-15 20:58:03 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:58:03 INFO     connecting www.bing.com:80
+2017-01-15 20:58:03 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:58:03 DEBUG    destroy: sgs.3w.dkys.org:80
+2017-01-15 20:58:03 DEBUG    destroying remote
+2017-01-15 20:58:03 DEBUG    destroying local
+2017-01-15 20:58:03 DEBUG    accept
+2017-01-15 20:58:03 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:58:03 INFO     connecting www.bing.com:80
+2017-01-15 20:58:03 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:58:06 DEBUG    destroy: bing.com:80
+2017-01-15 20:58:06 DEBUG    destroying remote
+2017-01-15 20:58:06 DEBUG    destroying local
+2017-01-15 20:58:13 DEBUG    accept
+2017-01-15 20:58:13 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:58:13 INFO     connecting fonts.gstatic.com:443
+2017-01-15 20:58:13 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:58:16 DEBUG    destroy: www.bing.com:80
+2017-01-15 20:58:16 DEBUG    destroying remote
+2017-01-15 20:58:16 DEBUG    destroying local
+2017-01-15 20:58:16 DEBUG    destroy: www.bing.com:80
+2017-01-15 20:58:16 DEBUG    destroying remote
+2017-01-15 20:58:16 DEBUG    destroying local
+2017-01-15 20:58:17 DEBUG    accept
+2017-01-15 20:58:17 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:58:17 INFO     connecting www.bing.com:80
+2017-01-15 20:58:17 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:58:22 DEBUG    accept
+2017-01-15 20:58:22 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:58:22 INFO     connecting www.bing.com:80
+2017-01-15 20:58:22 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:58:26 DEBUG    accept
+2017-01-15 20:58:26 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:58:26 INFO     connecting login.live.com:443
+2017-01-15 20:58:26 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:58:26 DEBUG    destroy: login.live.com:443
+2017-01-15 20:58:26 DEBUG    destroying remote
+2017-01-15 20:58:26 DEBUG    destroying local
+2017-01-15 20:58:26 DEBUG    accept
+2017-01-15 20:58:26 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:58:26 INFO     connecting www.bing.com:443
+2017-01-15 20:58:26 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:58:30 DEBUG    accept
+2017-01-15 20:58:30 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:58:30 INFO     connecting cl-cookbook.sourceforge.net:80
+2017-01-15 20:58:30 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:58:32 DEBUG    accept
+2017-01-15 20:58:32 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:58:32 INFO     connecting 192.168.31.1:80
+2017-01-15 20:58:32 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:58:33 DEBUG    destroy: www.bing.com:80
+2017-01-15 20:58:33 DEBUG    destroying remote
+2017-01-15 20:58:33 DEBUG    destroying local
+2017-01-15 20:58:40 DEBUG    accept
+2017-01-15 20:58:40 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:58:40 INFO     connecting acl.readthedocs.io:80
+2017-01-15 20:58:40 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:58:40 DEBUG    accept
+2017-01-15 20:58:40 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:58:40 INFO     connecting cl-cookbook.sourceforge.net:80
+2017-01-15 20:58:40 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:58:46 DEBUG    destroy: cl-cookbook.sourceforge.net:80
+2017-01-15 20:58:46 DEBUG    destroying remote
+2017-01-15 20:58:46 DEBUG    destroying local
+2017-01-15 20:58:54 DEBUG    destroy: acl.readthedocs.io:80
+2017-01-15 20:58:54 DEBUG    destroying remote
+2017-01-15 20:58:54 DEBUG    destroying local
+2017-01-15 20:58:55 DEBUG    destroy: cl-cookbook.sourceforge.net:80
+2017-01-15 20:58:55 DEBUG    destroying remote
+2017-01-15 20:58:55 DEBUG    destroying local
+2017-01-15 20:59:02 DEBUG    destroy: 192.168.31.1:80
+2017-01-15 20:59:02 DEBUG    destroying remote
+2017-01-15 20:59:02 DEBUG    destroying local
+2017-01-15 20:59:02 DEBUG    accept
+2017-01-15 20:59:02 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 20:59:02 INFO     connecting ipv4.google.com:443
+2017-01-15 20:59:02 DEBUG    hit cache: a.ssx.host
+2017-01-15 20:59:04 DEBUG    destroy: cn.bing.com:80
+2017-01-15 20:59:04 DEBUG    destroying remote
+2017-01-15 20:59:04 DEBUG    destroying local
+2017-01-15 20:59:21 DEBUG    destroy: www.bing.com:80
+2017-01-15 20:59:21 DEBUG    destroying remote
+2017-01-15 20:59:21 DEBUG    destroying local
+2017-01-15 20:59:29 DEBUG    destroy: www.bing.com:443
+2017-01-15 20:59:29 DEBUG    destroying remote
+2017-01-15 20:59:29 DEBUG    destroying local
+2017-01-15 20:59:30 DEBUG    destroy: www.bing.com:80
+2017-01-15 20:59:30 DEBUG    destroying remote
+2017-01-15 20:59:30 DEBUG    destroying local
+2017-01-15 20:59:45 DEBUG    destroy: www.bing.com:80
+2017-01-15 20:59:45 DEBUG    destroying remote
+2017-01-15 20:59:45 DEBUG    destroying local
+2017-01-15 21:00:11 DEBUG    accept
+2017-01-15 21:00:11 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:00:11 INFO     connecting www.bing.com:80
+2017-01-15 21:00:11 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:00:13 DEBUG    accept
+2017-01-15 21:00:13 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:00:13 INFO     connecting login.live.com:443
+2017-01-15 21:00:13 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:00:14 DEBUG    destroy: login.live.com:443
+2017-01-15 21:00:14 DEBUG    destroying remote
+2017-01-15 21:00:14 DEBUG    destroying local
+2017-01-15 21:00:14 DEBUG    accept
+2017-01-15 21:00:14 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:00:14 INFO     connecting www.bing.com:443
+2017-01-15 21:00:14 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:00:16 DEBUG    destroy: www.bing.com:80
+2017-01-15 21:00:16 DEBUG    destroying remote
+2017-01-15 21:00:16 DEBUG    destroying local
+2017-01-15 21:00:29 DEBUG    accept
+2017-01-15 21:00:29 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:00:29 INFO     connecting www.gnu.org:80
+2017-01-15 21:00:29 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:00:30 DEBUG    accept
+2017-01-15 21:00:30 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:00:30 INFO     connecting www.gnu.org:80
+2017-01-15 21:00:30 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:00:30 DEBUG    destroy: www.gnu.org:80
+2017-01-15 21:00:30 DEBUG    destroying remote
+2017-01-15 21:00:30 DEBUG    destroying local
+2017-01-15 21:00:31 DEBUG    accept
+2017-01-15 21:00:31 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:00:31 INFO     connecting www.gnu.org:80
+2017-01-15 21:00:31 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:00:34 DEBUG    destroy: www.gnu.org:80
+2017-01-15 21:00:34 DEBUG    destroying remote
+2017-01-15 21:00:34 DEBUG    destroying local
+2017-01-15 21:00:35 DEBUG    destroy: www.gnu.org:80
+2017-01-15 21:00:35 DEBUG    destroying remote
+2017-01-15 21:00:35 DEBUG    destroying local
+2017-01-15 21:00:50 DEBUG    destroy: ssl.gstatic.com:443
+2017-01-15 21:00:50 DEBUG    destroying remote
+2017-01-15 21:00:50 DEBUG    destroying local
+2017-01-15 21:00:58 DEBUG    destroy: apis.google.com:443
+2017-01-15 21:00:58 DEBUG    destroying remote
+2017-01-15 21:00:58 DEBUG    destroying local
+2017-01-15 21:01:02 DEBUG    destroy: clients1.google.com:80
+2017-01-15 21:01:02 DEBUG    destroying remote
+2017-01-15 21:01:02 DEBUG    destroying local
+2017-01-15 21:01:08 DEBUG    destroy: www.gstatic.com:443
+2017-01-15 21:01:08 DEBUG    destroying remote
+2017-01-15 21:01:08 DEBUG    destroying local
+2017-01-15 21:01:17 DEBUG    destroy: ipv4.google.com:443
+2017-01-15 21:01:17 DEBUG    destroying remote
+2017-01-15 21:01:17 DEBUG    destroying local
+2017-01-15 21:01:19 DEBUG    destroy: www.bing.com:443
+2017-01-15 21:01:19 DEBUG    destroying remote
+2017-01-15 21:01:19 DEBUG    destroying local
+2017-01-15 21:01:20 DEBUG    destroy: www.google.com:443
+2017-01-15 21:01:20 DEBUG    destroying remote
+2017-01-15 21:01:20 DEBUG    destroying local
+2017-01-15 21:01:32 DEBUG    destroy: www.bing.com:80
+2017-01-15 21:01:32 DEBUG    destroying remote
+2017-01-15 21:01:32 DEBUG    destroying local
+2017-01-15 21:01:37 DEBUG    destroy: www.bing.com:80
+2017-01-15 21:01:37 DEBUG    destroying remote
+2017-01-15 21:01:37 DEBUG    destroying local
+2017-01-15 21:01:45 DEBUG    accept
+2017-01-15 21:01:45 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:01:45 INFO     connecting www.bing.com:80
+2017-01-15 21:01:45 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:02:00 DEBUG    accept
+2017-01-15 21:02:00 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:02:00 INFO     connecting www.google.com:443
+2017-01-15 21:02:00 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:02:02 DEBUG    destroy: ipv4.google.com:443
+2017-01-15 21:02:02 DEBUG    destroying remote
+2017-01-15 21:02:02 DEBUG    destroying local
+2017-01-15 21:02:10 DEBUG    accept
+2017-01-15 21:02:10 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:02:10 INFO     connecting www.bing.com:80
+2017-01-15 21:02:10 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:02:11 DEBUG    accept
+2017-01-15 21:02:11 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:02:11 INFO     connecting www.bing.com:80
+2017-01-15 21:02:11 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:02:11 DEBUG    accept
+2017-01-15 21:02:11 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:02:11 INFO     connecting lisptips.com:80
+2017-01-15 21:02:11 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:02:15 DEBUG    destroy: www.google.com:443
+2017-01-15 21:02:15 DEBUG    destroying remote
+2017-01-15 21:02:15 DEBUG    destroying local
+2017-01-15 21:02:16 DEBUG    destroy: fonts.gstatic.com:443
+2017-01-15 21:02:16 DEBUG    destroying remote
+2017-01-15 21:02:16 DEBUG    destroying local
+2017-01-15 21:02:21 DEBUG    destroy: www.gstatic.com:443
+2017-01-15 21:02:21 DEBUG    destroying remote
+2017-01-15 21:02:21 DEBUG    destroying local
+2017-01-15 21:02:29 DEBUG    accept
+2017-01-15 21:02:29 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:02:29 INFO     connecting computer-programming-forum.com:80
+2017-01-15 21:02:29 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:02:30 DEBUG    accept
+2017-01-15 21:02:30 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:02:30 INFO     connecting computer-programming-forum.com:80
+2017-01-15 21:02:30 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:02:30 DEBUG    accept
+2017-01-15 21:02:30 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:02:30 INFO     connecting computer-programming-forum.com:80
+2017-01-15 21:02:30 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:02:30 DEBUG    accept
+2017-01-15 21:02:30 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:02:30 INFO     connecting computer-programming-forum.com:80
+2017-01-15 21:02:30 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:02:36 DEBUG    destroy: computer-programming-forum.com:80
+2017-01-15 21:02:36 DEBUG    destroying remote
+2017-01-15 21:02:36 DEBUG    destroying local
+2017-01-15 21:02:37 DEBUG    accept
+2017-01-15 21:02:37 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:02:37 INFO     connecting computer-programming-forum.com:80
+2017-01-15 21:02:37 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:02:37 DEBUG    accept
+2017-01-15 21:02:37 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:02:37 INFO     connecting computer-programming-forum.com:80
+2017-01-15 21:02:37 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:02:38 DEBUG    accept
+2017-01-15 21:02:38 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:02:38 INFO     connecting computer-programming-forum.com:80
+2017-01-15 21:02:38 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:02:41 DEBUG    2 keys swept
+2017-01-15 21:03:04 DEBUG    accept
+2017-01-15 21:03:04 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:03:04 INFO     connecting www.gstatic.com:443
+2017-01-15 21:03:04 DEBUG    resolving a.ssx.host with type 1 using server 192.168.31.1
+2017-01-15 21:03:12 DEBUG    1 keys swept
+2017-01-15 21:03:23 DEBUG    destroy: www.bing.com:80
+2017-01-15 21:03:23 DEBUG    destroying remote
+2017-01-15 21:03:23 DEBUG    destroying local
+2017-01-15 21:03:26 DEBUG    destroy: www.bing.com:80
+2017-01-15 21:03:26 DEBUG    destroying remote
+2017-01-15 21:03:26 DEBUG    destroying local
+2017-01-15 21:03:32 DEBUG    destroy: www.bing.com:80
+2017-01-15 21:03:32 DEBUG    destroying remote
+2017-01-15 21:03:32 DEBUG    destroying local
+2017-01-15 21:04:18 DEBUG    got remote error
+2017-01-15 21:04:18 ERROR    [Errno 110] Connection timed out
+2017-01-15 21:04:18 DEBUG    destroy: lisptips.com:80
+2017-01-15 21:04:18 DEBUG    destroying remote
+2017-01-15 21:04:18 DEBUG    destroying local
+2017-01-15 21:04:18 DEBUG    accept
+2017-01-15 21:04:18 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:04:18 INFO     connecting lisptips.com:80
+2017-01-15 21:04:18 DEBUG    resolving a.ssx.host with type 1 using server 192.168.31.1
+2017-01-15 21:04:25 DEBUG    accept
+2017-01-15 21:04:25 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:04:25 INFO     connecting assets.tumblr.com:80
+2017-01-15 21:04:25 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:04:25 DEBUG    accept
+2017-01-15 21:04:25 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:04:25 INFO     connecting ajax.googleapis.com:80
+2017-01-15 21:04:25 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:04:25 DEBUG    accept
+2017-01-15 21:04:25 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:04:25 INFO     connecting static.tumblr.com:80
+2017-01-15 21:04:25 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:04:25 DEBUG    accept
+2017-01-15 21:04:25 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:04:25 INFO     connecting assets.tumblr.com:80
+2017-01-15 21:04:25 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:04:25 DEBUG    accept
+2017-01-15 21:04:25 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:04:25 INFO     connecting assets.tumblr.com:80
+2017-01-15 21:04:25 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:04:25 DEBUG    accept
+2017-01-15 21:04:25 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:04:25 INFO     connecting disqus.com:80
+2017-01-15 21:04:25 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:04:25 DEBUG    accept
+2017-01-15 21:04:25 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:04:25 INFO     connecting 68.media.tumblr.com:80
+2017-01-15 21:04:25 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:04:25 DEBUG    accept
+2017-01-15 21:04:25 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:04:25 INFO     connecting lisptips.com:80
+2017-01-15 21:04:25 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:04:26 DEBUG    accept
+2017-01-15 21:04:26 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:04:26 INFO     connecting assets.tumblr.com:80
+2017-01-15 21:04:26 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:04:26 DEBUG    destroy: disqus.com:80
+2017-01-15 21:04:26 DEBUG    destroying remote
+2017-01-15 21:04:26 DEBUG    destroying local
+2017-01-15 21:04:26 DEBUG    accept
+2017-01-15 21:04:26 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:04:26 INFO     connecting lisptips.disqus.com:443
+2017-01-15 21:04:26 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:04:29 DEBUG    accept
+2017-01-15 21:04:29 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:04:29 DEBUG    accept
+2017-01-15 21:04:29 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:04:29 INFO     connecting 68.media.tumblr.com:80
+2017-01-15 21:04:29 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:04:29 INFO     connecting 68.media.tumblr.com:80
+2017-01-15 21:04:29 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:04:30 DEBUG    accept
+2017-01-15 21:04:30 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:04:30 INFO     connecting static.tumblr.com:80
+2017-01-15 21:04:30 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:04:30 DEBUG    accept
+2017-01-15 21:04:30 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:04:30 INFO     connecting disqus.com:443
+2017-01-15 21:04:30 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:04:30 DEBUG    accept
+2017-01-15 21:04:30 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:04:30 INFO     connecting disqus.com:80
+2017-01-15 21:04:30 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:04:31 DEBUG    accept
+2017-01-15 21:04:31 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:04:31 INFO     connecting a.disquscdn.com:443
+2017-01-15 21:04:31 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:04:31 DEBUG    accept
+2017-01-15 21:04:31 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:04:31 INFO     connecting ocsp.digicert.com:80
+2017-01-15 21:04:31 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:04:31 DEBUG    accept
+2017-01-15 21:04:31 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:04:31 INFO     connecting www.google-analytics.com:443
+2017-01-15 21:04:31 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:04:32 DEBUG    accept
+2017-01-15 21:04:32 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:04:32 INFO     connecting assets.tumblr.com:443
+2017-01-15 21:04:32 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:04:32 DEBUG    accept
+2017-01-15 21:04:32 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:04:32 INFO     connecting px.srvcs.tumblr.com:443
+2017-01-15 21:04:32 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:04:32 DEBUG    accept
+2017-01-15 21:04:32 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:04:32 INFO     connecting a.disquscdn.com:443
+2017-01-15 21:04:32 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:04:32 DEBUG    accept
+2017-01-15 21:04:32 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:04:32 INFO     connecting clients1.google.com:80
+2017-01-15 21:04:32 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:04:32 DEBUG    accept
+2017-01-15 21:04:32 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:04:32 INFO     connecting assets.tumblr.com:443
+2017-01-15 21:04:32 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:04:34 DEBUG    accept
+2017-01-15 21:04:34 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:04:34 INFO     connecting ssl.google-analytics.com:443
+2017-01-15 21:04:34 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:04:34 DEBUG    accept
+2017-01-15 21:04:34 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:04:34 INFO     connecting sb.scorecardresearch.com:443
+2017-01-15 21:04:34 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:04:34 DEBUG    accept
+2017-01-15 21:04:34 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:04:34 INFO     connecting geo.query.yahoo.com:443
+2017-01-15 21:04:34 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:04:34 DEBUG    destroy: computer-programming-forum.com:80
+2017-01-15 21:04:34 DEBUG    destroying remote
+2017-01-15 21:04:34 DEBUG    destroying local
+2017-01-15 21:04:34 DEBUG    destroy: computer-programming-forum.com:80
+2017-01-15 21:04:34 DEBUG    destroying remote
+2017-01-15 21:04:34 DEBUG    destroying local
+2017-01-15 21:04:34 DEBUG    destroy: computer-programming-forum.com:80
+2017-01-15 21:04:34 DEBUG    destroying remote
+2017-01-15 21:04:34 DEBUG    destroying local
+2017-01-15 21:04:34 DEBUG    destroy: computer-programming-forum.com:80
+2017-01-15 21:04:34 DEBUG    destroying remote
+2017-01-15 21:04:34 DEBUG    destroying local
+2017-01-15 21:04:35 DEBUG    accept
+2017-01-15 21:04:35 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:04:35 INFO     connecting ocsp.comodoca.com:80
+2017-01-15 21:04:35 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:04:36 DEBUG    accept
+2017-01-15 21:04:36 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:04:36 INFO     connecting a.disquscdn.com:443
+2017-01-15 21:04:36 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:04:36 DEBUG    accept
+2017-01-15 21:04:36 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:04:36 INFO     connecting px.srvcs.tumblr.com:443
+2017-01-15 21:04:36 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:04:36 DEBUG    destroy: ocsp.comodoca.com:80
+2017-01-15 21:04:36 DEBUG    destroying remote
+2017-01-15 21:04:36 DEBUG    destroying local
+2017-01-15 21:04:36 DEBUG    accept
+2017-01-15 21:04:36 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:04:36 INFO     connecting sb.scorecardresearch.com:443
+2017-01-15 21:04:36 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:04:42 DEBUG    accept
+2017-01-15 21:04:42 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:04:42 INFO     connecting a.disquscdn.com:443
+2017-01-15 21:04:42 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:04:42 DEBUG    accept
+2017-01-15 21:04:42 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:04:42 INFO     connecting a.disquscdn.com:443
+2017-01-15 21:04:42 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:04:43 DEBUG    accept
+2017-01-15 21:04:43 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:04:43 INFO     connecting a.disquscdn.com:443
+2017-01-15 21:04:43 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:04:43 DEBUG    accept
+2017-01-15 21:04:43 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:04:43 INFO     connecting referrer.disqus.com:443
+2017-01-15 21:04:43 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:04:47 DEBUG    accept
+2017-01-15 21:04:47 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:04:47 INFO     connecting i1-j4-20-1-1-13960-3420525109-i.init.cedexis-radar.net:80
+2017-01-15 21:04:47 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:04:48 DEBUG    accept
+2017-01-15 21:04:48 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:04:48 INFO     connecting rpt.cedexis.com:80
+2017-01-15 21:04:48 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:04:48 DEBUG    accept
+2017-01-15 21:04:48 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:04:48 INFO     connecting radar.cedexis.com:80
+2017-01-15 21:04:48 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:04:48 DEBUG    destroy: a.disquscdn.com:443
+2017-01-15 21:04:48 DEBUG    destroying remote
+2017-01-15 21:04:48 DEBUG    destroying local
+2017-01-15 21:04:49 DEBUG    accept
+2017-01-15 21:04:49 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:04:49 INFO     connecting full-ruler.secure.yahoo.com:443
+2017-01-15 21:04:49 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:04:49 DEBUG    destroy: i1-j4-20-1-1-13960-3420525109-i.init.cedexis-radar.net:80
+2017-01-15 21:04:49 DEBUG    destroying remote
+2017-01-15 21:04:49 DEBUG    destroying local
+2017-01-15 21:04:50 DEBUG    destroy: computer-programming-forum.com:80
+2017-01-15 21:04:50 DEBUG    destroying remote
+2017-01-15 21:04:50 DEBUG    destroying local
+2017-01-15 21:04:51 DEBUG    destroy: ocsp.digicert.com:80
+2017-01-15 21:04:51 DEBUG    destroying remote
+2017-01-15 21:04:51 DEBUG    destroying local
+2017-01-15 21:04:51 DEBUG    destroy: computer-programming-forum.com:80
+2017-01-15 21:04:51 DEBUG    destroying remote
+2017-01-15 21:04:51 DEBUG    destroying local
+2017-01-15 21:04:52 DEBUG    accept
+2017-01-15 21:04:52 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:04:52 INFO     connecting rpt.cedexis.com:80
+2017-01-15 21:04:52 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:04:52 DEBUG    accept
+2017-01-15 21:04:52 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:04:52 INFO     connecting 1736040489.rsc.cdn77.org:80
+2017-01-15 21:04:52 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:04:54 DEBUG    destroy: rpt.cedexis.com:80
+2017-01-15 21:04:54 DEBUG    destroying remote
+2017-01-15 21:04:54 DEBUG    destroying local
+2017-01-15 21:04:54 DEBUG    destroy: radar.cedexis.com:80
+2017-01-15 21:04:54 DEBUG    destroying remote
+2017-01-15 21:04:54 DEBUG    destroying local
+2017-01-15 21:04:56 DEBUG    accept
+2017-01-15 21:04:56 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:04:56 INFO     connecting tata-bitgravity.cedexis.com:80
+2017-01-15 21:04:56 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:05:01 DEBUG    accept
+2017-01-15 21:05:01 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:05:01 INFO     connecting cedexis-perf.comcast.net:80
+2017-01-15 21:05:01 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:05:02 DEBUG    accept
+2017-01-15 21:05:02 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:05:02 INFO     connecting odol-atsec-sfb-39.cedexis-perf.top.comcast.net:80
+2017-01-15 21:05:02 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:05:03 DEBUG    accept
+2017-01-15 21:05:03 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:05:03 INFO     connecting ccr.cedexis-perf.top.comcast.net:80
+2017-01-15 21:05:03 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:05:04 DEBUG    destroy: tata-bitgravity.cedexis.com:80
+2017-01-15 21:05:04 DEBUG    destroying remote
+2017-01-15 21:05:04 DEBUG    destroying local
+2017-01-15 21:05:04 DEBUG    accept
+2017-01-15 21:05:04 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:05:04 INFO     connecting odol-atsec-sfb-19.cedexis-perf.top.comcast.net:80
+2017-01-15 21:05:04 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:05:07 DEBUG    accept
+2017-01-15 21:05:07 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:05:07 INFO     connecting odol-atsec-sfb-27.cedexis-perf.top.comcast.net:80
+2017-01-15 21:05:07 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:05:08 DEBUG    destroy: 1736040489.rsc.cdn77.org:80
+2017-01-15 21:05:08 DEBUG    destroying remote
+2017-01-15 21:05:08 DEBUG    destroying local
+2017-01-15 21:05:11 DEBUG    accept
+2017-01-15 21:05:11 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:05:11 INFO     connecting cloudflare.cedexis.com:80
+2017-01-15 21:05:11 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:05:11 DEBUG    accept
+2017-01-15 21:05:11 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:05:11 INFO     connecting rpt.cedexis.com:80
+2017-01-15 21:05:11 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:05:13 DEBUG    destroy: rpt.cedexis.com:80
+2017-01-15 21:05:13 DEBUG    destroying remote
+2017-01-15 21:05:13 DEBUG    destroying local
+2017-01-15 21:05:13 DEBUG    1 keys swept
+2017-01-15 21:05:15 DEBUG    accept
+2017-01-15 21:05:15 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:05:15 INFO     connecting g-core.cedexis.com:80
+2017-01-15 21:05:15 DEBUG    resolving a.ssx.host with type 1 using server 192.168.31.1
+2017-01-15 21:05:16 DEBUG    accept
+2017-01-15 21:05:16 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:05:16 INFO     connecting rpt.cedexis.com:80
+2017-01-15 21:05:16 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:05:19 DEBUG    accept
+2017-01-15 21:05:19 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:05:19 INFO     connecting eu-west-2a.aws.bench.cedexis.com:80
+2017-01-15 21:05:19 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:05:23 DEBUG    accept
+2017-01-15 21:05:23 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:05:23 INFO     connecting cedexis.leasewebcdn.com:80
+2017-01-15 21:05:23 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:05:24 DEBUG    destroy: ccr.cedexis-perf.top.comcast.net:80
+2017-01-15 21:05:24 DEBUG    destroying remote
+2017-01-15 21:05:24 DEBUG    destroying local
+2017-01-15 21:05:25 DEBUG    destroy: rpt.cedexis.com:80
+2017-01-15 21:05:25 DEBUG    destroying remote
+2017-01-15 21:05:25 DEBUG    destroying local
+2017-01-15 21:05:27 DEBUG    destroy: cedexis-perf.comcast.net:80
+2017-01-15 21:05:27 DEBUG    destroying remote
+2017-01-15 21:05:27 DEBUG    destroying local
+2017-01-15 21:05:43 DEBUG    destroy: cedexis.leasewebcdn.com:80
+2017-01-15 21:05:43 DEBUG    destroying remote
+2017-01-15 21:05:43 DEBUG    destroying local
+2017-01-15 21:05:43 DEBUG    1 keys swept
+2017-01-15 21:05:44 DEBUG    destroy: lisptips.com:80
+2017-01-15 21:05:44 DEBUG    destroying remote
+2017-01-15 21:05:44 DEBUG    destroying local
+2017-01-15 21:05:51 DEBUG    destroy: px.srvcs.tumblr.com:443
+2017-01-15 21:05:51 DEBUG    destroying remote
+2017-01-15 21:05:51 DEBUG    destroying local
+2017-01-15 21:05:52 DEBUG    destroy: px.srvcs.tumblr.com:443
+2017-01-15 21:05:52 DEBUG    destroying remote
+2017-01-15 21:05:52 DEBUG    destroying local
+2017-01-15 21:05:52 DEBUG    destroy: eu-west-2a.aws.bench.cedexis.com:80
+2017-01-15 21:05:52 DEBUG    destroying remote
+2017-01-15 21:05:52 DEBUG    destroying local
+2017-01-15 21:05:56 DEBUG    destroy: assets.tumblr.com:80
+2017-01-15 21:05:56 DEBUG    destroying remote
+2017-01-15 21:05:56 DEBUG    destroying local
+2017-01-15 21:05:57 DEBUG    destroy: assets.tumblr.com:80
+2017-01-15 21:05:57 DEBUG    destroying remote
+2017-01-15 21:05:57 DEBUG    destroying local
+2017-01-15 21:05:57 DEBUG    destroy: assets.tumblr.com:80
+2017-01-15 21:05:57 DEBUG    destroying remote
+2017-01-15 21:05:57 DEBUG    destroying local
+2017-01-15 21:05:57 DEBUG    destroy: cloudflare.cedexis.com:80
+2017-01-15 21:05:57 DEBUG    destroying remote
+2017-01-15 21:05:57 DEBUG    destroying local
+2017-01-15 21:05:58 DEBUG    destroy: lisptips.com:80
+2017-01-15 21:05:58 DEBUG    destroying remote
+2017-01-15 21:05:58 DEBUG    destroying local
+2017-01-15 21:06:00 DEBUG    destroy: assets.tumblr.com:80
+2017-01-15 21:06:00 DEBUG    destroying remote
+2017-01-15 21:06:00 DEBUG    destroying local
+2017-01-15 21:06:00 DEBUG    destroy: www.google.com:443
+2017-01-15 21:06:00 DEBUG    destroying remote
+2017-01-15 21:06:00 DEBUG    destroying local
+2017-01-15 21:06:00 DEBUG    destroy: 68.media.tumblr.com:80
+2017-01-15 21:06:00 DEBUG    destroying remote
+2017-01-15 21:06:00 DEBUG    destroying local
+2017-01-15 21:06:03 DEBUG    destroy: 68.media.tumblr.com:80
+2017-01-15 21:06:03 DEBUG    destroying remote
+2017-01-15 21:06:03 DEBUG    destroying local
+2017-01-15 21:06:04 DEBUG    destroy: www.gstatic.com:443
+2017-01-15 21:06:04 DEBUG    destroying remote
+2017-01-15 21:06:04 DEBUG    destroying local
+2017-01-15 21:06:04 DEBUG    destroy: assets.tumblr.com:443
+2017-01-15 21:06:04 DEBUG    destroying remote
+2017-01-15 21:06:04 DEBUG    destroying local
+2017-01-15 21:06:13 DEBUG    destroy: 68.media.tumblr.com:80
+2017-01-15 21:06:13 DEBUG    destroying remote
+2017-01-15 21:06:13 DEBUG    destroying local
+2017-01-15 21:06:16 DEBUG    destroy: assets.tumblr.com:443
+2017-01-15 21:06:16 DEBUG    destroying remote
+2017-01-15 21:06:16 DEBUG    destroying local
+2017-01-15 21:06:24 DEBUG    destroy: ajax.googleapis.com:80
+2017-01-15 21:06:24 DEBUG    destroying remote
+2017-01-15 21:06:24 DEBUG    destroying local
+2017-01-15 21:06:26 DEBUG    destroy: lisptips.disqus.com:443
+2017-01-15 21:06:26 DEBUG    destroying remote
+2017-01-15 21:06:26 DEBUG    destroying local
+2017-01-15 21:06:27 DEBUG    destroy: disqus.com:80
+2017-01-15 21:06:27 DEBUG    destroying remote
+2017-01-15 21:06:27 DEBUG    destroying local
+2017-01-15 21:06:27 DEBUG    destroy: static.tumblr.com:80
+2017-01-15 21:06:27 DEBUG    destroying remote
+2017-01-15 21:06:27 DEBUG    destroying local
+2017-01-15 21:06:31 DEBUG    destroy: geo.query.yahoo.com:443
+2017-01-15 21:06:31 DEBUG    destroying remote
+2017-01-15 21:06:31 DEBUG    destroying local
+2017-01-15 21:06:31 DEBUG    destroy: g-core.cedexis.com:80
+2017-01-15 21:06:31 DEBUG    destroying remote
+2017-01-15 21:06:31 DEBUG    destroying local
+2017-01-15 21:06:33 DEBUG    destroy: sb.scorecardresearch.com:443
+2017-01-15 21:06:33 DEBUG    destroying remote
+2017-01-15 21:06:33 DEBUG    destroying local
+2017-01-15 21:06:33 DEBUG    destroy: sb.scorecardresearch.com:443
+2017-01-15 21:06:33 DEBUG    destroying remote
+2017-01-15 21:06:33 DEBUG    destroying local
+2017-01-15 21:06:34 DEBUG    destroy: static.tumblr.com:80
+2017-01-15 21:06:34 DEBUG    destroying remote
+2017-01-15 21:06:34 DEBUG    destroying local
+2017-01-15 21:06:39 DEBUG    destroy: clients1.google.com:80
+2017-01-15 21:06:39 DEBUG    destroying remote
+2017-01-15 21:06:39 DEBUG    destroying local
+2017-01-15 21:06:39 DEBUG    destroy: a.disquscdn.com:443
+2017-01-15 21:06:39 DEBUG    destroying remote
+2017-01-15 21:06:39 DEBUG    destroying local
+2017-01-15 21:06:39 DEBUG    destroy: a.disquscdn.com:443
+2017-01-15 21:06:39 DEBUG    destroying remote
+2017-01-15 21:06:39 DEBUG    destroying local
+2017-01-15 21:06:39 DEBUG    destroy: a.disquscdn.com:443
+2017-01-15 21:06:39 DEBUG    destroying remote
+2017-01-15 21:06:39 DEBUG    destroying local
+2017-01-15 21:06:39 DEBUG    destroy: a.disquscdn.com:443
+2017-01-15 21:06:39 DEBUG    destroying remote
+2017-01-15 21:06:39 DEBUG    destroying local
+2017-01-15 21:06:40 DEBUG    destroy: a.disquscdn.com:443
+2017-01-15 21:06:40 DEBUG    destroying remote
+2017-01-15 21:06:40 DEBUG    destroying local
+2017-01-15 21:06:40 DEBUG    destroy: referrer.disqus.com:443
+2017-01-15 21:06:40 DEBUG    destroying remote
+2017-01-15 21:06:40 DEBUG    destroying local
+2017-01-15 21:06:41 DEBUG    destroy: disqus.com:443
+2017-01-15 21:06:41 DEBUG    destroying remote
+2017-01-15 21:06:41 DEBUG    destroying local
+2017-01-15 21:07:01 DEBUG    destroy: odol-atsec-sfb-19.cedexis-perf.top.comcast.net:80
+2017-01-15 21:07:01 DEBUG    destroying remote
+2017-01-15 21:07:01 DEBUG    destroying local
+2017-01-15 21:07:02 DEBUG    destroy: odol-atsec-sfb-39.cedexis-perf.top.comcast.net:80
+2017-01-15 21:07:02 DEBUG    destroying remote
+2017-01-15 21:07:02 DEBUG    destroying local
+2017-01-15 21:07:06 DEBUG    destroy: odol-atsec-sfb-27.cedexis-perf.top.comcast.net:80
+2017-01-15 21:07:06 DEBUG    destroying remote
+2017-01-15 21:07:06 DEBUG    destroying local
+2017-01-15 21:07:25 DEBUG    destroy: rpt.cedexis.com:80
+2017-01-15 21:07:25 DEBUG    destroying remote
+2017-01-15 21:07:25 DEBUG    destroying local
+2017-01-15 21:07:32 DEBUG    destroy: www.google-analytics.com:443
+2017-01-15 21:07:32 DEBUG    destroying remote
+2017-01-15 21:07:32 DEBUG    destroying local
+2017-01-15 21:07:41 DEBUG    destroy: ssl.google-analytics.com:443
+2017-01-15 21:07:41 DEBUG    destroying remote
+2017-01-15 21:07:41 DEBUG    destroying local
+2017-01-15 21:07:53 DEBUG    destroy: full-ruler.secure.yahoo.com:443
+2017-01-15 21:07:53 DEBUG    destroying remote
+2017-01-15 21:07:53 DEBUG    destroying local
+2017-01-15 21:17:24 DEBUG    accept
+2017-01-15 21:17:24 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:17:24 INFO     connecting localhost:8080
+2017-01-15 21:17:24 DEBUG    resolving a.ssx.host with type 1 using server 192.168.31.1
+2017-01-15 21:17:24 DEBUG    destroy: localhost:8080
+2017-01-15 21:17:24 DEBUG    destroying remote
+2017-01-15 21:17:24 DEBUG    destroying local
+2017-01-15 21:17:29 DEBUG    accept
+2017-01-15 21:17:29 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:17:29 INFO     connecting localhost:8080
+2017-01-15 21:17:29 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:17:29 DEBUG    accept
+2017-01-15 21:17:29 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:17:29 INFO     connecting localhost:8080
+2017-01-15 21:17:29 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:17:31 DEBUG    destroy: localhost:8080
+2017-01-15 21:17:31 DEBUG    destroying remote
+2017-01-15 21:17:31 DEBUG    destroying local
+2017-01-15 21:17:32 DEBUG    accept
+2017-01-15 21:17:32 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:17:32 INFO     connecting localhost:8080
+2017-01-15 21:17:32 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:17:32 DEBUG    destroy: localhost:8080
+2017-01-15 21:17:32 DEBUG    destroying remote
+2017-01-15 21:17:32 DEBUG    destroying local
+2017-01-15 21:17:32 DEBUG    accept
+2017-01-15 21:17:32 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:17:32 INFO     connecting localhost:8080
+2017-01-15 21:17:32 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:17:32 DEBUG    destroy: localhost:8080
+2017-01-15 21:17:32 DEBUG    destroying remote
+2017-01-15 21:17:32 DEBUG    destroying local
+2017-01-15 21:17:35 DEBUG    destroy: localhost:8080
+2017-01-15 21:17:35 DEBUG    destroying remote
+2017-01-15 21:17:35 DEBUG    destroying local
+2017-01-15 21:17:35 DEBUG    accept
+2017-01-15 21:17:35 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:17:35 INFO     connecting localhost:8080
+2017-01-15 21:17:35 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:17:36 DEBUG    destroy: localhost:8080
+2017-01-15 21:17:36 DEBUG    destroying remote
+2017-01-15 21:17:36 DEBUG    destroying local
+2017-01-15 21:17:36 DEBUG    accept
+2017-01-15 21:17:36 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:17:36 INFO     connecting localhost:8080
+2017-01-15 21:17:36 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:17:36 DEBUG    destroy: localhost:8080
+2017-01-15 21:17:36 DEBUG    destroying remote
+2017-01-15 21:17:36 DEBUG    destroying local
+2017-01-15 21:18:50 DEBUG    accept
+2017-01-15 21:18:50 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:18:50 INFO     connecting localhost:8080
+2017-01-15 21:18:50 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:18:51 DEBUG    destroy: localhost:8080
+2017-01-15 21:18:51 DEBUG    destroying remote
+2017-01-15 21:18:51 DEBUG    destroying local
+2017-01-15 21:18:51 DEBUG    accept
+2017-01-15 21:18:51 DEBUG    chosen server: a.ssx.host:1024
+2017-01-15 21:18:51 INFO     connecting localhost:8080
+2017-01-15 21:18:51 DEBUG    hit cache: a.ssx.host
+2017-01-15 21:18:52 DEBUG    destroy: localhost:8080
+2017-01-15 21:18:52 DEBUG    destroying remote
+2017-01-15 21:18:52 DEBUG    destroying local
+2017-01-15 21:22:47 DEBUG    1 keys swept
+INFO: loading config from ./ss.json
+2017-01-16 11:10:54 INFO     starting local at 127.0.0.1:1080
+2017-01-16 11:10:54 DEBUG    using event model: epoll
+INFO: loading config from ./ss.json
+2017-01-16 11:11:18 INFO     starting local at 127.0.0.1:1080
+2017-01-16 11:11:18 ERROR    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 55, in main
+    tcp_server = tcprelay.TCPRelay(config, dns_resolver, True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/tcprelay.py", line 519, in __init__
+    server_socket.bind(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+INFO: loading config from ./ss.json
+Traceback (most recent call last):
+  File "/usr/bin/sslocal", line 9, in <module>
+    load_entry_point('shadowsocks==2.1.0', 'console_scripts', 'sslocal')()
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/local.py", line 44, in main
+    config = utils.get_config(True)
+  File "/usr/lib/python2.7/dist-packages/shadowsocks/utils.py", line 103, in get_config
+    with open(config_path, 'rb') as f:
+IOError: [Errno 2] No such file or directory: './ss.json'

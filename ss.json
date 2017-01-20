@@ -2,7 +2,7 @@
 "server":"a.ssx.host",
 "server_port":1024,
 "local_port":1080,
-"password":"25688628",
+"password":"37436007",
 "timeout":300,
 "method":"aes-256-cfb"
 }
