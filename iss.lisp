@@ -5,6 +5,9 @@
 ;;; version
 ;;;
 
+;; <2017-01-27 Fri 22:45:48>
+;; Restart: Use start, not run
+
 ;; <2017-01-15 Sun 13:47:20>
 ;; Make code more independent
 
@@ -35,7 +38,7 @@
 ;;;
 
 ;; 无法访问网址
-;; Restart bug: when start after stop.先停止后启动，不能正常退出 Lisp 环境.
+;; DONE：Restart bug: when start after stop.先停止后启动，不能正常退出 Lisp 环境.
 ;; Some Info Dont't Print
 ;; Manage help info
 ;; DONE: Make it auto run when compute boots
@@ -55,8 +58,9 @@
 
 (ql:quickload :drakma)
 (defvar *iss*
-  (drakma:http-request "http://www.ishadowsocks.co/"))
+  (drakma:http-request "http://www.ishadowsocks.com/"))
 ;; (drakma:http-request "http://iss.pm/")
+;; 有时网址无法访问。
 
 ;; write to a file
 
@@ -117,25 +121,6 @@
 
 ;;; start shadowsocks
 
-;; sslocal -c ./ss.json
-
-(ql:quickload :external-program)
-(defun start-ss ()
-  (with-open-file (out "./log.txt"
-                       :direction :output
-                       :if-does-not-exist :create
-                       :if-exists :append)
-    ;; Can't exit SBCL: <2017-01-15 Sun 15:53:30>
-    (external-program:run "sslocal"
-                          ;; directore should be absolute
-                          '("-c" "./ss.json" "-v")
-                          :output out)
-    "Shadowsocks is Started."))
-;; (start-ss)
-
-
-;;; stop shadowsocks
-
 ;; get shadowsocks's pid
 
 (defun get-program-pid (program-name)
@@ -147,6 +132,38 @@
                            :output out))))
 ;; (get-program-pid "sslocal")
 
+(defun shadowsocks-running-info ()
+  (format nil "
+==== Shadowsocks Running Info ====
+
+Shadowsocks's PID: ~A.
+On Terminal: kill -9 ~A.
+On SBCL: (stop-ss)
+" (get-program-pid "sslocal") (get-program-pid "sslocal")))
+
+;; sslocal -c ./ss.json
+
+(ql:quickload :external-program)
+(defun start-ss ()
+  (if (> (length (get-program-pid "sslocal"))
+         0)
+      "Shadowsocks is already Started."
+      (with-open-file (out "./log.txt"
+                           :direction :output
+                           :if-does-not-exist :create
+                           :if-exists :append)
+        ;; Can't exit SBCL: <2017-01-15 Sun 15:53:30>
+        ;; 将 run 修改为 start 能正常的退出 SBCL：<2017-01-27 Fri 12:09:23>
+        (external-program:start "sslocal"
+                                ;; directore should be absolute
+                                '("-c" "./ss.json" "-v")
+                                :output out)
+        "Shadowsocks is Started.")))
+;; (start-ss)
+
+
+;;; stop shadowsocks
+
 ;; kill shadowsocks's pd
 
 (defun stop-ss ()
@@ -155,7 +172,8 @@
       (progn
         (external-program:run "kill"
                               `("-9" ,(get-program-pid "sslocal")))
-        "Shadowsocks is Stoped.")))
+        "Shadowsocks is Stoped.")
+      "Shadowsocks is not Started."))
 ;; (stop-ss)
 
 
@@ -163,14 +181,7 @@
 
 ;; stop then start
 
-(defun shadowsocks-running-info ()
-  (format t "
-==== Shadowsocks Running Info ====
 
-Shadowsocks's PID: ~A.
-On Terminal: kill -9 ~A.
-On SBCL: (stop-ss)
-" (get-program-pid "sslocal") (get-program-pid "sslocal")))
 (defun restart-ss ()
   (stop-ss)
   (start-ss)
@@ -267,7 +278,7 @@ Time of this program: (time-of-this-program)
 ;; Start Shadowsocks, then Exit Lisp
 
 (get-ss-json)
-(start-ss)
+(restart-ss)
 (save-readme)
-(shadowsocks-running-info)
+*help-info*
 (exit-lisp)
