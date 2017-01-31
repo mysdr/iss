@@ -197,6 +197,15 @@ On SBCL: (stop-ss)
 (defvar *help-info*
   "* Help Info 使用说明
 
+** Install Shadowsocks 安装
+
+sudo apt-get install shadowsocks
+cd /tmp/
+git clone https://github.com/sgs-site/iss.git
+cp -r /tmp/iss/ ~/iss/
+cd ~/iss/
+/usr/bin/sbcl --load iss.lisp
+
 ** Start Shadowsocks 启动
 
 On SLIME: M-x load-file [this Lisp file]
