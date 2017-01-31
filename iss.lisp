@@ -123,6 +123,7 @@
 
 ;; get shadowsocks's pid
 
+(ql:quickload :external-program)
 (defun get-program-pid (program-name)
   (cl-ppcre:scan-to-strings
    "\\d*"
