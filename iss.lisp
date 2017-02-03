@@ -5,6 +5,8 @@
 ;;; version
 ;;;
 
+;; 修复 中文在纯英文系统下不兼容的问题 <2017-02-03 Fri 16:21:16>
+
 ;; <2017-01-27 Fri 22:45:48>
 ;; Restart: Use start, not run
 
@@ -194,76 +196,76 @@ On SBCL: (stop-ss)
 
 ;; auto save help info to readme.org
 
-(defvar *help-info*
-  "* Help Info 使用说明
+;; (defvar *help-info*
+;;   "* Help Info 使用说明
 
-** Install Shadowsocks 安装
-#+BEGIN_SRC shell
-sudo apt-get install shadowsocks
+;; ** Install Shadowsocks 安装
+;; #+BEGIN_SRC shell
+;; sudo apt-get install shadowsocks
 
-cd /tmp/
+;; cd /tmp/
 
-git clone https://github.com/sgs-site/iss.git
+;; git clone https://github.com/sgs-site/iss.git
 
-cp -r /tmp/iss/ ~/iss/
+;; cp -r /tmp/iss/ ~/iss/
 
-cd ~/iss/
+;; cd ~/iss/
 
-/usr/bin/sbcl --load iss.lisp
-#+END_SRC
-** Start Shadowsocks 启动
+;; /usr/bin/sbcl --load iss.lisp
+;; #+END_SRC
+;; ** Start Shadowsocks 启动
 
-On SLIME: M-x load-file [this Lisp file]
+;; On SLIME: M-x load-file [this Lisp file]
 
-On SBCL: (load [this Lisp file])
+;; On SBCL: (load [this Lisp file])
 
-On Terminal: sbcl --load [this Lisp file]
+;; On Terminal: sbcl --load [this Lisp file]
 
-** Configure and Log File of Shadowsocks 配置与日志
+;; ** Configure and Log File of Shadowsocks 配置与日志
 
-Shadowsocks Configure: ./ss.json
+;; Shadowsocks Configure: ./ss.json
 
-Shadowsocks Log: ./log.txt
+;; Shadowsocks Log: ./log.txt
 
-** Stop Shadowsocks 关闭
+;; ** Stop Shadowsocks 关闭
 
-*** On Terminal
+;; *** On Terminal
 
-1. pgrep -l sslocal
+;; 1. pgrep -l sslocal
 
-2. kill -9 [pid]
+;; 2. kill -9 [pid]
 
-*** On SBCL
+;; *** On SBCL
 
-(stop-ss)
+;; (stop-ss)
 
-** Restart Shadowsocks 重启
+;; ** Restart Shadowsocks 重启
 
-(restart-ss)
+;; (restart-ss)
 
-** Show Time of Load this Program 查看耗时
+;; ** Show Time of Load this Program 查看耗时
 
-Time of this program: (time-of-this-program)
+;; Time of this program: (time-of-this-program)
 
-** Attention 注意事项
+;; ** Attention 注意事项
 
-1. Shadowsocks Configure and Log file is auto generated. 配置与日志自动生成。
+;; 1. Shadowsocks Configure and Log file is auto generated. 配置与日志自动生成。
 
-2. Lisp will auto exit after load this file. Lisp 环境会自动退出。
+;; 2. Lisp will auto exit after load this file. Lisp 环境会自动退出。
 
-3. Readme is auto generated.
+;; 3. Readme is auto generated.
 
-")
+;; ")
 
 ;; save readme
 
-(defun save-readme ()
-  (with-open-file (out "./readme.org"
-                       :direction :output
-                       :if-does-not-exist :create
-                       :if-exists :supersede)
-    (format out "~A" *help-info*)
-    (format nil "~A" *help-info*)))
+;; (defun save-readme ()
+;;   (with-open-file (out "./readme.org"
+;;                        :direction :output
+;;                        :if-does-not-exist :create
+;;                        :if-exists :supersede)
+;;     (format out "~A" *help-info*)
+;;     (format nil "~A" *help-info*)))
 
 
 ;;; Time of this program
@@ -294,6 +296,6 @@ Time of this program: (time-of-this-program)
 
 (get-ss-json)
 (restart-ss)
-(save-readme)
-*help-info*
+;; (save-readme)
+;; *help-info*
 (exit-lisp)
