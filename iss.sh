@@ -1,6 +1,8 @@
+# 新增 删除文件 <2017-02-03 Fri 16:32:22>
 # 新增 删除相关文件夹 <2017-02-03 Fri 16:30:13>
 sudo apt-get install shadowsocks sbcl
 cd /tmp/
+rm iss.sh
 rm -r /tmp/iss
 git clone https://github.com/sgs-site/iss.git
 rm -r ~/iss
