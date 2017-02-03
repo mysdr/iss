@@ -1,0 +1,1 @@
+5 */1 * * * /usr/bin/sbcl --load ~/iss/iss.lisp
