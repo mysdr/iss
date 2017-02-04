@@ -5,6 +5,8 @@
 ;;; version
 ;;;
 
+;; 优化 更好地 readme <2017-02-04 Sat 22:38:16>
+
 ;; 优化 Some Info Dont't Print <2017-02-04 Sat 22:30:26>
 ;; format
 
@@ -211,6 +213,13 @@ On SBCL: (stop-ss)
 
 ** Install Shadowsocks 安装
 #+BEGIN_SRC shell
+cd /tmp
+rm iss.sh
+wget https://raw.githubusercontent.com/sgs-site/iss/master/iss.sh
+sh iss.sh
+#+END_SRC
+Or
+#+BEGIN_SRC shell
 sudo apt-get install shadowsocks
 
 cd /tmp/
@@ -309,4 +318,4 @@ Time of this program: (time-of-this-program)
 (save-readme)
 ;; (format t "~A" *help-info*)
 
-;; (exit-lisp)
+(exit-lisp)

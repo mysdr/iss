@@ -2,14 +2,12 @@
 
 ** Install Shadowsocks 安装
 #+BEGIN_SRC shell
-
 cd /tmp
 rm iss.sh
 wget https://raw.githubusercontent.com/sgs-site/iss/master/iss.sh
 sh iss.sh
-
 #+END_SRC
-or
+Or
 #+BEGIN_SRC shell
 sudo apt-get install shadowsocks
 
