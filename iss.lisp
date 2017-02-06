@@ -5,6 +5,8 @@
 ;;; version
 ;;;
 
+;; 优化 依据多个服务器自动保存一个非空的配置信息 <2017-02-06 Mon 14:56:00>
+
 ;; 优化 更好地 readme <2017-02-04 Sat 22:38:16>
 
 ;; 优化 Some Info Dont't Print <2017-02-04 Sat 22:30:26>
@@ -55,7 +57,7 @@
 ;; DONE：Some Info Dont't Print
 ;; Manage help info
 ;; DONE: Make it auto run when compute boots
-;; Simplify the way of writing to a file
+;; DONE：Simplify the way of writing to a file
 ;; DONE: Make help info more understardable
 ;; DONE: Make code more independent
 
@@ -67,7 +69,7 @@
 
 ;;; iss: get account and write to a file
 
-;; get account
+;; get html page
 
 (ql:quickload :drakma)
 (defvar *iss*
@@ -75,50 +77,59 @@
 ;; (drakma:http-request "http://iss.pm/")
 ;; 有时网址无法访问。
 
+;; get server, port, password
+
+(defun get-server (server)
+  (cl-ppcre:scan-to-strings
+   "[^:].*[^<]"
+   (cl-ppcre:scan-to-strings
+    ":.*<"
+    (cl-ppcre:scan-to-strings
+     (format nil "<div class=\"col-sm-4 text-center\">.*\\s.*<h4>~A.*"
+             server)
+     *iss*))))
+;; (get-server "C")
+(defun get-port (server)
+  (cl-ppcre:scan-to-strings
+   "[^:].*[^<]"
+   (cl-ppcre:scan-to-strings
+    ":.*<"
+    (cl-ppcre:scan-to-strings
+     (format nil "<h4>.*\\s<h4>~A.*"
+             server)
+     *iss*))))
+;; (get-port "C")
+(defun get-password (server)
+  (cl-ppcre:scan-to-strings
+   "[^:].*[^<]"
+   (cl-ppcre:scan-to-strings
+    ":.*<"
+    (cl-ppcre:scan-to-strings
+     "\\s<h4>.*<"
+     (cl-ppcre:scan-to-strings
+      (format nil "<h4>.*\\s<h4>~A.*"
+              server)
+      *iss*)))))
+;; (get-password "C")
+
 ;; write to a file
 
 (ql:quickload :cl-ppcre)
-(defun get-ss-json ()
+
+(defun get-json (server)
   (with-open-file (out "./ss.json"
                        :direction :output
                        :if-does-not-exist :create
                        :if-exists :supersede)
-    (let ((server nil)
-          (port nil)
-          (password nil))
-      (setf server
-            (cl-ppcre:scan-to-strings
-             "[^:].*[^<]"
-             (cl-ppcre:scan-to-strings
-              ":.*<"
-              (cl-ppcre:scan-to-strings
-               "<div class=\"col-sm-4 text-center\">.*\\s.*"
-               *iss*))))
-      (setf port
-            (cl-ppcre:scan-to-strings
-             "[^:].*[^<]"
-             (cl-ppcre:scan-to-strings
-              ":.*<"
-              (cl-ppcre:scan-to-strings "<h4>.*\\s<h4>.*"
-                                        *iss*))))
-      (setf password
-            (cl-ppcre:scan-to-strings
-             "[^:].*[^<]"
-             (cl-ppcre:scan-to-strings
-              ":.*<"
-              (cl-ppcre:scan-to-strings
-               "\\s<h4>.*<"
-               (cl-ppcre:scan-to-strings "<h4>.*\\s<h4>.*"
-                                         *iss*)))))
-      (format out "{
+    (format out "{
 \"server\":\"~A\",
 \"server_port\":~A,
 \"local_port\":1080,
 \"password\":\"~A\",
 \"timeout\":300,
 \"method\":\"aes-256-cfb\"
-}" server port password)
-      (format t "
+}" (get-server server) (get-port server) (get-password server))
+    (format t "
 ==== Shadowsocks Configure Info ====
 
 {
@@ -129,8 +140,28 @@
 \"timeout\":300,
 \"method\":\"aes-256-cfb\"
 }
-" server port password))))
+" (get-server server) (get-port server) (get-password server))))
+(defun get-password? (server)
+  (not (null (get-password server))))
 
+(defvar *server*
+  '("A" "B" "C"))
+(defun get-ss-json ()
+  (destructuring-bind (server1 server2 server3) *server*
+    (cond ((get-password? server1)
+           (get-json server1))
+          ((get-password? server2)
+           (get-json server2))
+          ((get-password? server3)
+           (get-json server3))
+          (t
+           (format t "==== ERROR ERROR ERROR ====
+
+没有获取到密码，检查相应网站的服务器、端口和密码
+
+服务器：~A ~A ~A~%"
+                   server1 server2 server3)))))
+;; (get-ss-json)
 
 ;;; start shadowsocks
 
@@ -318,4 +349,4 @@ Time of this program: (time-of-this-program)
 (save-readme)
 ;; (format t "~A" *help-info*)
 
-(exit-lisp)
+;; (exit-lisp)
