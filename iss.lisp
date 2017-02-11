@@ -355,4 +355,4 @@ Time of this program: (time-of-this-program)
 (save-readme)
 ;; (format t "~A" *help-info*)
 
-;;(exit-lisp)
+(exit-lisp)
