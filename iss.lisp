@@ -5,6 +5,8 @@
 ;;; version
 ;;;
 
+;; 优化 网址无法访问 <2017-02-11 Sat 12:16:19>
+
 ;; 优化 依据多个服务器自动保存一个非空的配置信息 <2017-02-06 Mon 14:56:00>
 
 ;; 优化 更好地 readme <2017-02-04 Sat 22:38:16>
@@ -73,7 +75,9 @@
 
 (ql:quickload :drakma)
 (defvar *iss*
-  (drakma:http-request "http://www.ishadowsocks.com/"))
+  (drakma:http-request "http://iss.pm/")
+  ;; (drakma:http-request "http://www.ishadowsocks.com/")
+  )
 ;; (drakma:http-request "http://iss.pm/")
 ;; 有时网址无法访问。
 
@@ -349,4 +353,4 @@ Time of this program: (time-of-this-program)
 (save-readme)
 ;; (format t "~A" *help-info*)
 
-(exit-lisp)
+;;(exit-lisp)
