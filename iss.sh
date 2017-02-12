@@ -1,3 +1,4 @@
+# 修复 通过 HTTPS 同步程序 <2017-02-12 日 18:09:58>
 # 优化 通过 SSH 同步程序 <2017-02-11 Sat 12:24:58>
 # 优化 强制删除文件 <2017-02-04 六 09:54:44>
 # 新增 crontab 定时更新 <2017-02-04 六 09:50:59>
@@ -7,8 +8,8 @@ sudo apt-get install shadowsocks sbcl
 cd /tmp/
 rm iss.sh
 rm -rf /tmp/iss
-# git clone https://github.com/sgs-site/iss.git
-git clone git@github.com:sgs-site/iss.git
+git clone https://github.com/sgs-site/iss.git
+# git clone git@github.com:sgs-site/iss.git
 rm -rf ~/iss
 mkdir ~/iss
 cp -rf /tmp/iss/* ~/iss
