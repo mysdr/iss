@@ -1,2 +1,2 @@
 # 每 1 小时，每 5 分钟执行
-5 */1 * * * /usr/bin/sbcl --load ~/iss/iss.lisp
+*/5 */1 * * * /usr/bin/sbcl --load ~/iss/iss.lisp
