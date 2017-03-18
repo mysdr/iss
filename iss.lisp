@@ -21,7 +21,7 @@
   (rest
    (same-selector
     (unique-selector
-     (drakma:http-request :user-agent :firefox)
+     (drakma:http-request uri :user-agent :firefox)
      "<div class=\"portfolio-items\">"
      "<div class=\"row text-center center\">")
     ;; 居然按地区分开
