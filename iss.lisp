@@ -1,129 +1,81 @@
-;;;; 获取在线 shadowsocks 账号并自动连接
-
-
 ;;;
-;;; version
-;;;
-
-;; 新增 LICENSE <2017-02-11 Sat 12:18:51>
-
-;; 优化 网址无法访问 <2017-02-11 Sat 12:16:19>
-
-;; 优化 依据多个服务器自动保存一个非空的配置信息 <2017-02-06 Mon 14:56:00>
-
-;; 优化 更好地 readme <2017-02-04 Sat 22:38:16>
-
-;; 优化 Some Info Dont't Print <2017-02-04 Sat 22:30:26>
-;; format
-
-;; 修复 slime character decode error <2017-02-04 Sat 22:24:29>
-;; http://stackoverflow.com/questions/10866478/how-do-i-get-quicklisp-to-load-rfc2388-in-slime
-;; 解决方法：新增 Emacs 全局 UTF-8 编码 <2017-02-04 Sat 22:20:09>
-;; (setenv "LANG" "en_US.UTF-8")
-
-;; 修复 中文在纯英文系统下不兼容的问题 <2017-02-03 Fri 16:21:16>
-
-;; <2017-01-27 Fri 22:45:48>
-;; Restart: Use start, not run
-
-;; <2017-01-15 Sun 13:47:20>
-;; Make code more independent
-
-;; <2017-01-15 Sun 10:34:11>
-;; Auto load sh file when Linux boots
-
-;; <2017-01-15 Sun 10:14:36>
-;; Rename directory: iss-auto
-
-;; <2017-01-15 Sun 10:11:41>
-;; Rename file: iss.lisp
-
-;; <2017-01-15 Sun 10:09:11>
-;; On Terminal: auto exit Lisp
-
-;; <2017-01-14 Sat 21:25:35>
-;; log.txt: send sslocal lot to a file
-
-;; <2017-01-14 Sat 20:37:05>
-;; sslocal: auto run sslocal
-
-;; <2017-01-14 Sat 19:57:23>
-;; iss: get account and write to a file
-
-
-;;;
-;;; todo
-;;;
-
-;; DONE：Character decoding error in a ;-comment at position 1079 reading source stream #<FORM-TRACKING-STREAM for "file /root/iss/iss.lisp" {B90A661}>, resyncing.
-;; 无法访问网址
-;; DONE：Restart bug: when start after stop.先停止后启动，不能正常退出 Lisp 环境.
-;; DONE：Some Info Dont't Print
-;; Manage help info
-;; DONE: Make it auto run when compute boots
-;; DONE：Simplify the way of writing to a file
-;; DONE: Make help info more understardable
-;; DONE: Make code more independent
-
-
-;;;
-;;; Auto Login Shadowsocks 自动登录 SS
+;;; 项目描述
 ;;;
 
 
-;;; iss: get account and write to a file
+;; http://www.ishadowsocks.org/
+;; <2017-03-18 Sat 17:53:56>
+;; 能自动获取相关数据
+;; 旧网站方案在iss-old.lisp中
 
-;; get html page
 
-(ql:quickload :drakma)
-(defvar *iss*
-  (drakma:http-request "http://iss.pm/")
-  ;; (drakma:http-request "http://www.ishadowsocks.com/")
-  )
-;; (drakma:http-request "http://iss.pm/")
-;; 有时网址无法访问。
+;;;
+;;; 获取相关数据
+;;;
 
-;; get server, port, password
+(ql:quickload '(sundawn.html-selector))
+(use-package :sundawn.html-selector)
 
-(defun get-server (server)
-  (cl-ppcre:scan-to-strings
-   "[^:].*[^<]"
-   (cl-ppcre:scan-to-strings
-    ":.*<"
-    (cl-ppcre:scan-to-strings
-     (format nil "<div class=\"col-sm-4 text-center\">.*\\s.*<h4>~A.*"
-             server)
-     *iss*))))
-;; (get-server "C")
-(defun get-port (server)
-  (cl-ppcre:scan-to-strings
-   "[^:].*[^<]"
-   (cl-ppcre:scan-to-strings
-    ":.*<"
-    (cl-ppcre:scan-to-strings
-     (format nil "<h4>.*\\s<h4>~A.*"
-             server)
-     *iss*))))
-;; (get-port "C")
-(defun get-password (server)
-  (cl-ppcre:scan-to-strings
-   "[^:].*[^<]"
-   (cl-ppcre:scan-to-strings
-    ":.*<"
-    (cl-ppcre:scan-to-strings
-     "\\s<h4>.*<"
-     (cl-ppcre:scan-to-strings
-      (format nil "<h4>.*\\s<h4>~A.*"
-              server)
-      *iss*)))))
-;; (get-password "C")
+(defun page-tables (&optional (uri "http://www.ishadowsocks.org/"))
+  "获取未处理的html字符串"
+  (rest
+   (same-selector
+    (unique-selector
+     (drakma:http-request :user-agent :firefox)
+     "<div class=\"portfolio-items\">"
+     "<div class=\"row text-center center\">")
+    ;; 居然按地区分开
+    "<div class=\"col-sm-6 col-md-4 col-lg-4"
+    "<div class=\"col-sm-6 col-md-4 col-lg-4")))
 
-;; write to a file
+(defun ippm ()
+  "ippm: ip address, port, password, method"
+  (mapcar
+   #'(lambda (i)
+       (list
+        ;; IP Address
+        (unique-selector (unique-selector i "<h4>" "</span>") ">" "\"")
+        ;; 这里应该是编码的问题，留意
+        ;; Port
+        (unique-selector i "<h4>Portï¼" "</h4>")
+        ;; Password
+        (unique-selector (unique-selector i "<h4>Password" "</span>")
+                         ">" "\"")
+        ;; Method
+        (unique-selector i "<h4>Method:" "</h4>")))
+   (page-tables)))
 
-(ql:quickload :cl-ppcre)
+(defun test ()
+  (unique-selector (unique-selector (first (page-tables))
+                                    "<h4>Method:" "</h4>")
+                   ">" "\""))
 
-(defun get-json (server)
-  (with-open-file (out "./ss.json"
+;; ;; >>> Note
+;; (ippm)
+;; ;; =>
+;; (("a.usip.pro" "443" "01082172" "aes-256-cfb")
+;;  ("b.usip.pro" "8388" "98267266" "rc4-md5")
+;;  ("c.usip.pro" "23456" "21669613" "chacha20")
+;;  ("a.jpip.pro" "443" "39531342" "aes-256-cfb")
+;;  ("b.jpip.pro" "8388" "07254546" "rc4-md5")
+;;  ("c.jpip.pro" "23456" "61524873" "chacha20")
+;;  ("a.sgip.pro" "443" "08295878" "aes-256-cfb")
+;;  ("b.sgip.pro" "8388" "70611114" "rc4-md5")
+;;  ("c.sgip.pro" "23456" "39484182" "chacha20")
+;;  ("c.usip.pro" "23456" "21669613" "chacha20")
+;;  ("b.jpip.pro" "8388" "07254546" "rc4-md5")
+;;  ("a.sgip.pro" "443" "08295878" "aes-256-cfb"))
+;; ;; <<< Note
+
+(defun remove-nil ()
+  (remove "" (ippm) :key #'third :test #'string=))
+
+(defun nil-string? (lst)
+  "查找纯字符串的列表中是否有空字符串"
+  (stringp (find "" lst :test #'string=)))
+
+(defun ippm->json (&optional (ippm (first (remove-nil))))
+  (with-open-file (out "ss.json"
                        :direction :output
                        :if-does-not-exist :create
                        :if-exists :supersede)
@@ -133,8 +85,8 @@
 \"local_port\":1080,
 \"password\":\"~A\",
 \"timeout\":300,
-\"method\":\"aes-256-cfb\"
-}" (get-server server) (get-port server) (get-password server))
+\"method\":\"~A\"
+}" (first ippm) (second ippm) (third ippm) (fourth ippm))
     (format t "
 ==== Shadowsocks Configure Info ====
 
@@ -144,37 +96,21 @@
 \"local_port\":1080,
 \"password\":\"~A\",
 \"timeout\":300,
-\"method\":\"aes-256-cfb\"
-}
-" (get-server server) (get-port server) (get-password server))))
-(defun get-password? (server)
-  (not (null (get-password server))))
+\"method\":\"~A\"
+}" (first ippm) (second ippm) (third ippm) (fourth ippm))))
 
-(defvar *server*
-  '("A" "B" "C"))
-(defun get-ss-json ()
-  (destructuring-bind (server1 server2 server3) *server*
-    (cond ((get-password? server1)
-           (get-json server1))
-          ((get-password? server2)
-           (get-json server2))
-          ((get-password? server3)
-           (get-json server3))
-          (t
-           (format t "==== ERROR ERROR ERROR ====
 
-没有获取到密码，检查相应网站的服务器、端口和密码
+;;;
+;;; 管理shadowsocks
+;;;
 
-服务器：~A ~A ~A~%"
-                   server1 server2 server3)))))
-;; (get-ss-json)
 
 ;;; start shadowsocks
 
-;; get shadowsocks's pid
-
 (ql:quickload :external-program)
+
 (defun get-program-pid (program-name)
+  ;; get shadowsocks's pid
   (cl-ppcre:scan-to-strings
    "\\d*"
    (with-output-to-string (out)
@@ -192,10 +128,8 @@ On Terminal: kill -9 ~A.
 On SBCL: (stop-ss)
 " (get-program-pid "sslocal") (get-program-pid "sslocal")))
 
-;; sslocal -c ./ss.json
-
-(ql:quickload :external-program)
 (defun start-ss ()
+  ;; sslocal -c ./ss.json
   (if (> (length (get-program-pid "sslocal"))
          0)
       "Shadowsocks is already Started."
@@ -210,14 +144,12 @@ On SBCL: (stop-ss)
                                 '("-c" "./ss.json" "-v")
                                 :output out)
         "Shadowsocks is Started.")))
-;; (start-ss)
 
 
 ;;; stop shadowsocks
 
-;; kill shadowsocks's pd
-
 (defun stop-ss ()
+  ;; kill shadowsocks's pd
   (if (> (length (get-program-pid "sslocal"))
          0)
       (progn
@@ -225,15 +157,12 @@ On SBCL: (stop-ss)
                               `("-9" ,(get-program-pid "sslocal")))
         "Shadowsocks is Stoped.")
       "Shadowsocks is not Started."))
-;; (stop-ss)
 
 
 ;;; restart shadowsocks
 
-;; stop then start
-
-
 (defun restart-ss ()
+  ;; stop then start
   (stop-ss)
   (start-ss)
   (format t "~A"
@@ -241,118 +170,8 @@ On SBCL: (stop-ss)
 ;; (restart-ss)
 
 
-;;; help info
+;;; 启动程序及退出程序
 
-;; auto save help info to readme.org
-
-(defvar *help-info*
-  "* Help Info 使用说明
-
-** Install Shadowsocks 安装
-#+BEGIN_SRC shell
-cd /tmp
-rm iss.sh
-wget https://raw.githubusercontent.com/sgs-site/iss/master/iss.sh
-sh iss.sh
-#+END_SRC
-Or
-#+BEGIN_SRC shell
-sudo apt-get install shadowsocks
-
-cd /tmp/
-
-git clone https://github.com/sgs-site/iss.git
-
-cp -r /tmp/iss/ ~/iss/
-
-cd ~/iss/
-
-/usr/bin/sbcl --load iss.lisp
-#+END_SRC
-** Start Shadowsocks 启动
-
-On SLIME: M-x load-file [this Lisp file]
-
-On SBCL: (load [this Lisp file])
-
-On Terminal: sbcl --load [this Lisp file]
-
-** Configure and Log File of Shadowsocks 配置与日志
-
-Shadowsocks Configure: ./ss.json
-
-Shadowsocks Log: ./log.txt
-
-** Stop Shadowsocks 关闭
-
-*** On Terminal
-
-1. pgrep -l sslocal
-
-2. kill -9 [pid]
-
-*** On SBCL
-
-(stop-ss)
-
-** Restart Shadowsocks 重启
-
+(ippm->json)
 (restart-ss)
-
-** Show Time of Load this Program 查看耗时
-
-Time of this program: (time-of-this-program)
-
-** Attention 注意事项
-
-1. Shadowsocks Configure and Log file is auto generated. 配置与日志自动生成。
-
-2. Lisp will auto exit after load this file. Lisp 环境会自动退出。
-
-3. Readme is auto generated.
-
-")
-
-;; save readme
-
-(defun save-readme ()
-  (with-open-file (out "./readme.org"
-                       :direction :output
-                       :if-does-not-exist :create
-                       :if-exists :supersede)
-    (format out "~A" *help-info*)
-    (format nil "~A" *help-info*)))
-
-
-;;; Time of this program
-
-;; (time (load "iss-get-account-login-获取网页里的账户并自动连接.lisp"))
-
-;; (defun time-of-this-program ()
-;;   (time (load "iss-get-account-login-获取网页里的账户并自动连接.lisp")))
-
-
-;;; exit Lisp
-
 ;; (sb-ext:exit)
-
-(defun exit-lisp ()
-  (sb-ext:exit))
-
-
-;;; auto load Lisp file when Lisp boots
-
-;; create a sh file: /usr/bin/sbcl --load /home/sgs/Common-Lisp/iss-auto/iss.lisp
-;; sudo copy sh file to /etc/profile.d/
-
-
-;;; Configure Lisp Program
-
-;; Start Shadowsocks, then Exit Lisp
-
-(get-ss-json)
-(restart-ss)
-(save-readme)
-;; (format t "~A" *help-info*)
-
-(exit-lisp)
