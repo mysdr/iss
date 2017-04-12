@@ -7,14 +7,15 @@
 ;; <2017-03-18 Sat 17:53:56>
 ;; 能自动获取相关数据
 ;; 旧网站方案在iss-old.lisp中
+;; <2017-04-12 Wed 21:30:16> 优化 添加错误处理
 
 
 ;;;
 ;;; 获取相关数据
 ;;;
 
-(ql:quickload '(sundawn.html-selector))
-(use-package :sundawn.html-selector)
+(ql:quickload '(sundawning.html-selector))
+(use-package :sundawning.html-selector)
 
 (defun page-tables (&optional (uri "http://www.ishadowsocks.org/"))
   "获取未处理的html字符串"
@@ -30,25 +31,28 @@
 
 (defun ippm ()
   "ippm: ip address, port, password, method"
-  (mapcar
-   #'(lambda (i)
-       (list
-        ;; IP Address
-        (unique-selector (unique-selector i "<h4>" "</span>") ">" "\"")
-        ;; 这里应该是编码的问题，留意
-        ;; Port
-        (unique-selector i "<h4>Portï¼" "</h4>")
-        ;; Password
-        (unique-selector (unique-selector i "<h4>Password" "</span>")
-                         ">" "\"")
-        ;; Method
-        (unique-selector i "<h4>Method:" "</h4>")))
-   (page-tables)))
+  (handler-case
+      (mapcar
+       #'(lambda (i)
+           (list
+            ;; IP Address
+            (unique-selector (unique-selector i "<h4>" "</span>") ">" "\"")
+            ;; 这里应该是编码的问题，留意
+            ;; Port
+            (unique-selector i "<h4>Portï¼" "</h4>")
+            ;; Password
+            (unique-selector (unique-selector i "<h4>Password" "</span>")
+                             ">" "\"")
+            ;; Method
+            (unique-selector i "<h4>Method:" "</h4>")))
+       (page-tables))
+    (sb-int:simple-stream-error () nil)))
 
 (defun test ()
-  (unique-selector (unique-selector (first (page-tables))
-                                    "<h4>Method:" "</h4>")
-                   ">" "\""))
+  (handler-case (unique-selector (unique-selector (first (page-tables))
+                                                  "<h4>Method:" "</h4>")
+                                 ">" "\"")
+    (sb-int:simple-stream-error () nil)))
 
 ;; ;; >>> Note
 ;; (ippm)
@@ -68,7 +72,10 @@
 ;; ;; <<< Note
 
 (defun remove-nil ()
-  (remove "" (ippm) :key #'third :test #'string=))
+  (remove "" (if (null (ippm))
+                 '((nil nil nil nil))
+                 (ippm))
+          :key #'third :test #'string=))
 
 (defun nil-string? (lst)
   "查找纯字符串的列表中是否有空字符串"
@@ -174,4 +181,4 @@ On SBCL: (stop-ss)
 
 (ippm->json)
 (restart-ss)
-;; (sb-ext:exit)
+(sb-ext:exit)
